@@ -1,5 +1,5 @@
 import { IMember } from '@/interfaces/IMember';
-import { bullet, picklogo25, rahulg, maggief, tyler, daniellep, joshuak, mattm, marcellat, chase, jadac, rahulv, nathand, lindseyc, ericd, everetty, jasonx, ericw, vishaanthm, shrijam, laurenh } from './Images';
+import { picklogo25, rahulg, maggief, tyler, daniellep, joshuak, mattm, marcellat, chase, jadac, rahulv, nathand, lindseyc, ericd, everetty, jasonx, ericw, vishaanthm, shrijam, laurenh } from './Images';
 
 export const Members: IMember[] = [
 	// Director
