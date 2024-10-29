@@ -5,25 +5,25 @@ import instagram from '../../public/images/icons/IconInstagram.png';
 import linkedin from '../../public/images/icons/IconLinkedIn.png';
 import tiktok from '../../public/images/icons/IconTikTok.png';
 import picklogo25 from '../../public/images/Logo2025.png';
-import chase from '../../public/images/avatars/placeholder.png';
-import daniellep from '../../public/images/avatars/placeholder.png';
-import ericd from '../../public/images/avatars/placeholder.png';
-import ericw from '../../public/images/avatars/placeholder.png';
-import everetty from '../../public/images/avatars/placeholder.png';
-import jadac from '../../public/images/avatars/placeholder.png';
-import jasonx from '../../public/images/avatars/placeholder.png';
-import joshuak from '../../public/images/avatars/placeholder.png';
-import mattm from '../../public/images/avatars/placeholder.png';
-import lindseyc from '../../public/images/avatars/placeholder.png';
-import maggief from '../../public/images/avatars/placeholder.png';
-import marcellat from '../../public/images/avatars/placeholder.png';
-import nathand from '../../public/images/avatars/placeholder.png';
-import rahulg from '../../public/images/avatars/placeholder.png';
-import rahulv from '../../public/images/avatars/placeholder.png';
-import tyler from '../../public/images/avatars/placeholder.png';
-import vishaanthm from '../../public/images/avatars/placeholder.png';
-import shrijam from '../../public/images/avatars/placeholder.png'
-import laurenh from '../../public/images/avatars/placeholder.png'
+import chase from '../../public/images/avatars/placeholder.png'; // import chase from '../../public/images/avatars/chase.png';
+import daniellep from '../../public/images/avatars/placeholder.png'; // import daniellep from '../../public/images/avatars/daniellep.png';
+import ericd from '../../public/images/avatars/placeholder.png'; // import ericd from '../../public/images/avatars/ericd.png';
+import ericw from '../../public/images/avatars/placeholder.png'; // import ericw from '../../public/images/avatars/ericw.png';
+import everetty from '../../public/images/avatars/placeholder.png'; // import everetty from '../../public/images/avatars/everetty.png';
+import jadac from '../../public/images/avatars/placeholder.png'; // import jadac from '../../public/images/avatars/jadac.png';
+import jasonx from '../../public/images/avatars/placeholder.png'; // import jasonx from '../../public/images/avatars/jasonx.png';
+import joshuak from '../../public/images/avatars/placeholder.png'; // import joshuak from '../../public/images/avatars/joshuak.png';
+import mattm from '../../public/images/avatars/placeholder.png'; // import mattm from '../../public/images/avatars/mattm.png';
+import lindseyc from '../../public/images/avatars/placeholder.png'; // import lindseyc from '../../public/images/avatars/lindseyc.png';
+import maggief from '../../public/images/avatars/placeholder.png'; // import maggief from '../../public/images/avatars/maggief.png';
+import marcellat from '../../public/images/avatars/placeholder.png'; // import marcellat from '../../public/images/avatars/marcellat.png';
+import nathand from '../../public/images/avatars/placeholder.png'; // import nathand from '../../public/images/avatars/nathand.png';
+import rahulg from '../../public/images/avatars/placeholder.png'; // import rahulg from '../../public/images/avatars/rahulg.png';
+import rahulv from '../../public/images/avatars/placeholder.png'; // import rahulv from '../../public/images/avatars/rahulv.png';
+import tyler from '../../public/images/avatars/placeholder.png'; // import tyler from '../../public/images/avatars/tyler.png';
+import vishaanthm from '../../public/images/avatars/placeholder.png'; // import vishaanthm from '../../public/images/avatars/vishaanthm.png';
+import shrijam from '../../public/images/avatars/placeholder.png'; // import shrijam from '../../public/images/avatars/shrijam.png';
+import laurenh from '../../public/images/avatars/placeholder.png'; // import laurenh from '../../public/images/avatars/laurenh.png';
 import metaquest3 from '../../public/images/prizes/metaquest3.jpg'
 import sennheiser from '../../public/images/prizes/sennheiser.png'
 import switcholed from '../../public/images/prizes/switcholed.png'

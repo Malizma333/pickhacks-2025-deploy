@@ -1,5 +1,5 @@
 import { IMember } from '@/interfaces/IMember';
-import { picklogo25, rahulg, maggief, tyler, daniellep, joshuak, mattm, marcellat, chase, jadac, rahulv, nathand, lindseyc, ericd, everetty, jasonx, ericw, vishaanthm, shrijam, laurenh } from './Images';
+import { rahulg, maggief, tyler, daniellep, joshuak, mattm, marcellat, chase, jadac, rahulv, nathand, lindseyc, ericd, everetty, jasonx, ericw, vishaanthm, shrijam, laurenh } from './Images';
 
 export const Members: IMember[] = [
 	// Director
@@ -51,7 +51,7 @@ export const Members: IMember[] = [
 	// 	name: 'Reid Haegele',
 	// 	linkedin: 'https://www.linkedin.com/in/reid-haegele/',
 	// 	role: 'Development Member',
-	// 	avatar: picklogo25.src
+	// 	avatar: picklogo24.src
 	// },
 	{
 		name: 'Eric Duong',
@@ -63,7 +63,7 @@ export const Members: IMember[] = [
 	// 	name: 'Tung Nguyen',
 	// 	linkedin: 'https://www.linkedin.com/in/tung-nguyen-0a509b26a/',
 	// 	role: 'Development Member',
-	// 	avatar: picklogo25.src
+	// 	avatar: picklogo24.src
 	// },
 	// Log Members
 	{
@@ -113,7 +113,7 @@ export const Members: IMember[] = [
 	// 	name: 'Keith Miller',
 	// 	linkedin: 'https://www.linkedin.com/in/keith-miller-22387424b/',
 	// 	role: 'Design Member',
-	// 	avatar: picklogo25.src
+	// 	avatar: picklogo24.src
 	// },
 	{
 		name: 'Joshua Kroft',
