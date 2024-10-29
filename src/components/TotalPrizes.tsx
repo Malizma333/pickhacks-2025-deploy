@@ -1,5 +1,5 @@
 import styles from '@/styles/components/TotalPrizes.module.css';
-import { bigblur } from '@/lib/Images';
+// import { bigblur } from '@/lib/Images';
 
 function TotalPrizes () {
 	return (
@@ -8,7 +8,7 @@ function TotalPrizes () {
 				<p className={styles.title}>$5,500+</p>
 				<p className={styles.bottomtext}>available in prizes this year!</p>
 			</div>
-			<img src={bigblur.src} className={styles.bigBlur}></img>
+			{/* <img src={bigblur.src} className={styles.bigBlur}></img> */}
 		</div>
 	);
 };

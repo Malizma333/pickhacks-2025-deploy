@@ -8,7 +8,7 @@ import Sponsors from '@/components/Sponsors';
 import Team from '@/components/Team';
 import Title from '@/components/Title';
 import TotalPrizes from '@/components/TotalPrizes';
-import { background2025, leftblur, littlestGuy, rightblur } from '@/lib/Images';
+import { background2025 } from '@/lib/Images';
 import styles from '@/styles/Home.module.css';
 import Head from 'next/head';
 
@@ -36,8 +36,8 @@ export default function Home() {
 				<div className={styles.section} id="schedule">
 					<Title>Schedule</Title>
 					<Schedule />
-					<img src={leftblur.src} className={styles.leftBlur}></img>
-					<img src={rightblur.src} className={styles.rightBlur}></img>
+					{/* <img src={leftblur.src} className={styles.leftBlur}></img>
+					<img src={rightblur.src} className={styles.rightBlur}></img> */}
 				</div>
 				<div className={styles.section} id="prizes">
 					<Title>Prizes</Title>
@@ -60,9 +60,9 @@ export default function Home() {
 						<Team></Team>
 					</div>
 				</div>
-				<div className={styles.smallGuySection}>
+				{/* <div className={styles.smallGuySection}>
 					<img src={littlestGuy.src} />
-				</div>
+				</div> */}
 			</main>
 			<Footer />
 		</>

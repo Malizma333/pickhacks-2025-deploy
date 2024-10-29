@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { picklogo24, discord, instagram, linkedin, tiktok, devpost } from '@/lib/Images';
+import { picklogo25, discord, instagram, linkedin, tiktok, devpost } from '@/lib/Images';
 import styles from '@/styles/components/Navbar.module.css';
 import Link from 'next/link';
 import { useMediaQuery } from 'usehooks-ts';
@@ -17,7 +17,7 @@ function Navbar() {
 			<div className={styles.container}>
 				<ul className={styles.list}>
 					<a href='#home' className={styles.logo}>
-						<img src={picklogo24.src} />
+						<img src={picklogo25.src} />
 					</a>
 					<li className={styles.item}>
 						<a className={styles.buttons} href='#schedule'>

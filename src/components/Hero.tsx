@@ -1,5 +1,4 @@
 import styles from '@/styles/components/Hero.module.css';
-import { flashlightguy } from '@/lib/Images';
 import Link from 'next/link';
 import { useMediaQuery } from 'usehooks-ts';
 
@@ -9,7 +8,7 @@ const Hero = () => {
 		<div className={styles.main} id='home'>
 			{matches && (
 				<div className={styles.left}>
-					<object data={flashlightguy.src} type='image/svg+xml' className={styles.securityGuard} />
+					{/* <object data={flashlightguy.src} type='image/svg+xml' className={styles.securityGuard} /> */}
 				</div>
 			)}
 

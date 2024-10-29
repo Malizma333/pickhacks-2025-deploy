@@ -1,4 +1,4 @@
-import { devpost, discord, instagram, linkedin, picklogo24, tiktok } from '@/lib/Images';
+import { devpost, discord, instagram, linkedin, picklogo25, tiktok } from '@/lib/Images';
 import styles from '@/styles/components/MobileNavbar.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -15,7 +15,7 @@ const MobileNavbar = () => {
 				</div>
 			)}
 			<a href='#home' className={styles.logo} onClick={() => setOpen(false)}>
-				<img src={picklogo24.src} className={styles.logo} />
+				<img src={picklogo25.src} className={styles.logo} />
 			</a>
 			<a
 				id='mlh-trust-badge'
