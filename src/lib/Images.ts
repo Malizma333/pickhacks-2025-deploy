@@ -9,7 +9,6 @@ import linkedin from '../../public/images/icons/IconLinkedIn.png';
 import tiktok from '../../public/images/icons/IconTikTok.png';
 import littlestGuy from '../../public/images/LittlestGuy.png';
 import picklogo24 from '../../public/images/Logo2025.png';
-import stars from '../../public/images/backgrounds/Stars.svg';
 import leftblur from '../../public/images/backgrounds/LeftBlur.png';
 import rightblur from '../../public/images/backgrounds/RightBlur.png';
 import bigblur from '../../public/images/backgrounds/BigBlur.png'
@@ -64,7 +63,6 @@ export {
 	tiktok,
 	littlestGuy,
 	picklogo24,
-	stars,
 	leftblur,
 	rightblur,
 	chase,
