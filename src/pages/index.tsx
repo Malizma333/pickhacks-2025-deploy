@@ -16,14 +16,14 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>PickHacks 2024</title>
+				<title>PickHacks 2025</title>
 				<meta name="author" content="PickHacks" />
-				<meta name="description" content="Stay up to date with the PickHacks 2024 event!" />
+				<meta name="description" content="Stay up to date with the PickHacks 2025 event!" />
 				<meta name="keywords" content="hackathon,mst,pickhacks" />
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="PickHacks 2024" />
-				<meta property="og:description" content="Stay up to date with the PickHacks 2024 event!" />
+				<meta property="og:title" content="PickHacks 2025" />
+				<meta property="og:description" content="Stay up to date with the PickHacks 2025 event!" />
 				<meta property="og:url" content="https://pickhacks.io" />
 				<meta property="og:site_name" content="PickHacks" />
 				<meta property="og:image" content="https://pickhacks.io/images/Logo2024.png" />

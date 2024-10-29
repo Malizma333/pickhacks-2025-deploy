@@ -1,4 +1,4 @@
-import background2024 from '../../public/images/backgrounds/Background2024.png';
+import background2025 from '../../public/images/backgrounds/Background2025.png';
 import backgroundNav from '../../public/images/backgrounds/BackgroundNav.png';
 import bullet from '../../public/images/icons/Bullet.png';
 import bulletExpand from '../../public/images/icons/BulletExpanded.png';
@@ -8,7 +8,7 @@ import instagram from '../../public/images/icons/IconInstagram.png';
 import linkedin from '../../public/images/icons/IconLinkedIn.png';
 import tiktok from '../../public/images/icons/IconTikTok.png';
 import littlestGuy from '../../public/images/LittlestGuy.png';
-import picklogo24 from '../../public/images/Logo2024.png';
+import picklogo24 from '../../public/images/Logo2025.png';
 import stars from '../../public/images/backgrounds/Stars.svg';
 import leftblur from '../../public/images/backgrounds/LeftBlur.png';
 import rightblur from '../../public/images/backgrounds/RightBlur.png';
@@ -53,7 +53,7 @@ import stuco from '../../public/images/partners/student-council-logo.jpg'
 import devpost from '../../public/images/icons/Devpost.png'
 
 export {
-	background2024,
+	background2025,
 	backgroundNav,
 	bullet,
     bulletExpand,

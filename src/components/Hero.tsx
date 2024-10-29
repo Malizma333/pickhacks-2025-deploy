@@ -15,7 +15,7 @@ const Hero = () => {
 
 			<div className={styles.right}>
 				<div>
-					<p className={styles.title}>PickHacks 2024</p>
+					<p className={styles.title}>PickHacks 2025</p>
 					<p className={styles.subtitle}>Learn, build, and share at Missouri S&T&apos;s security hackathon!</p>
 				</div>
 
