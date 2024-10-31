@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { picklogo24, discord, instagram, linkedin, tiktok, devpost } from '@/lib/Images';
+import { picklogo25, discord, instagram, linkedin, tiktok, devpost } from '@/lib/Images';
 import styles from '@/styles/components/Navbar.module.css';
 import Link from 'next/link';
 import { useMediaQuery } from 'usehooks-ts';
@@ -17,7 +17,7 @@ function Navbar() {
 			<div className={styles.container}>
 				<ul className={styles.list}>
 					<a href='#home' className={styles.logo}>
-						<img src={picklogo24.src} />
+						<img src={picklogo25.src} />
 					</a>
 					<li className={styles.item}>
 						<a className={styles.buttons} href='#schedule'>
@@ -74,12 +74,12 @@ function Navbar() {
 					<a
 						id='mlh-trust-badge'
 						style={{ display: 'block', width: '100px', zIndex: 10000, marginTop: '6.5em' }}
-						href='https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white'
+						href='https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white'
 						target='_blank'
 					>
 						<img
-							src='https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg'
-							alt='Major League Hacking 2024 Hackathon Season'
+							src='https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg'
+							alt='Major League Hacking 2025 Hackathon Season'
 							style={{ width: '100%' }}
 						></img>
 					</a>

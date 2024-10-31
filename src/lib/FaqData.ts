@@ -9,7 +9,7 @@ export const QAData: IQA[] = [
 	{
 		idx: 1,
 		question: 'Can I participate virtually?',
-		answer: 'Unfortunately, we will not be offering a virtual attendance option this year. PickHacks 2024 will be fully held in-person at our brand new Innovation Lab to create an interactive environment and encourage everyone to network with our sponsors and meet new people.',
+		answer: 'Unfortunately, we will not be offering a virtual attendance option this year. PickHacks 2025 will be fully held in-person at our brand new Innovation Lab to create an interactive environment and encourage everyone to network with our sponsors and meet new people.',
 	},
 	{
 		idx: 2,

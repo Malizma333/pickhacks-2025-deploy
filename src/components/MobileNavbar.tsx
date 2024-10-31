@@ -1,4 +1,4 @@
-import { devpost, discord, instagram, linkedin, picklogo24, tiktok } from '@/lib/Images';
+import { devpost, discord, instagram, linkedin, picklogo25, tiktok } from '@/lib/Images';
 import styles from '@/styles/components/MobileNavbar.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -15,17 +15,17 @@ const MobileNavbar = () => {
 				</div>
 			)}
 			<a href='#home' className={styles.logo} onClick={() => setOpen(false)}>
-				<img src={picklogo24.src} className={styles.logo} />
+				<img src={picklogo25.src} className={styles.logo} />
 			</a>
 			<a
 				id='mlh-trust-badge'
 				style={{ display: 'block', width: '60px', zIndex: 10000, position: 'fixed', top: 0, right: 80 }}
-				href='https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white'
+				href='https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2025-season&utm_content=white'
 				target='_blank'
 			>
 				<img
-					src='https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg'
-					alt='Major League Hacking 2024 Hackathon Season'
+					src='https://s3.amazonaws.com/logged-assets/trust-badge/2025/mlh-trust-badge-2025-white.svg'
+					alt='Major League Hacking 2025 Hackathon Season'
 					style={{ width: '100%' }}
 				></img>
 			</a>
@@ -50,7 +50,7 @@ const MobileNavbar = () => {
 					REGISTER
 				</Link>
 				<div className={styles.socials}>
-					<a className={styles.icon} href='https://pickhacks-2024.devpost.com/' target='_blank'>
+					<a className={styles.icon} href='https://pickhacks-2025.devpost.com/' target='_blank'>
 						<img src={devpost.src} />
 					</a>
 					<a className={styles.icon} href='https://www.instagram.com/sandtpickhacks' target='_blank'>

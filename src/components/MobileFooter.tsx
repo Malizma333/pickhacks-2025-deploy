@@ -18,7 +18,7 @@ const MobileFooter = () => {
 					</a>
 				</div>
 
-				<p className={styles.right}>PickHacks 2024</p>
+				<p className={styles.right}>PickHacks 2025</p>
 			</div>
 		</footer>
 	);
