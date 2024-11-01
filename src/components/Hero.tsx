@@ -1,30 +1,18 @@
+import { pickhackssign } from '@/lib/Images';
 import styles from '@/styles/components/Hero.module.css';
 import Link from 'next/link';
-import { useMediaQuery } from 'usehooks-ts';
 
 const Hero = () => {
-	const matches = useMediaQuery('(min-width: 1140px)');
 	return (
 		<div className={styles.main} id='home'>
-			{matches && (
-				<div className={styles.left}>
-					{/* <object data={flashlightguy.src} type='image/svg+xml' className={styles.securityGuard} /> */}
-				</div>
-			)}
-
-			<div className={styles.right}>
-				<div>
-					<p className={styles.title}>PickHacks 2025</p>
-					<p className={styles.subtitle}>Learn, build, and share at Missouri S&T&apos;s security hackathon!</p>
-				</div>
-
-				<div>
-					<p className={styles.date}>Join us from April 5th - 7th!</p>
-					<Link href='https://www.register.pickhacks.io' target='_blank' className={styles.registerButton}>
-						REGISTER
-					</Link>
-				</div>
-			</div>
+      <div className={styles.center}>
+        <img className={styles.title} src={pickhackssign.src}></img>
+        <p className={styles.subtitle}>Learn, build, and share at Missouri S&T&apos;s <span className={styles.emphasis}>game</span> hackathon!</p>
+        <p className={styles.date}>Join us from Feb 28 - March 2nd!</p>
+        <Link href='https://www.register.pickhacks.io' target='_blank' className={styles.registerButton}>
+          REGISTER
+        </Link>
+      </div>
 		</div>
 	);
 };
