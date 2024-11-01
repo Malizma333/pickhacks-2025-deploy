@@ -8,7 +8,6 @@ import Sponsors from '@/components/Sponsors';
 import Team from '@/components/Team';
 import Title from '@/components/Title';
 import TotalPrizes from '@/components/TotalPrizes';
-import { background2025 } from '@/lib/Images';
 import styles from '@/styles/Home.module.css';
 import Head from 'next/head';
 
@@ -30,8 +29,6 @@ export default function Home() {
 				<meta name="theme-color" content="#ff52d2" />
 			</Head>
 			<main className={styles.main}>
-        {/* Doesn't match layout size yet */}
-				{/* <object data={background2025.src} type="image/png" className={styles.background} /> */}
 				<Hero />
 				<div className={styles.section} id="schedule">
 					<Title>Schedule</Title>
