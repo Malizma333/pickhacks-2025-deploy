@@ -1,12 +1,13 @@
 .navbar {
 	/* background: url('../../../public/images/backgrounds/BackgroundNav.png'); */
-	background-color: #17072f;
+	background-color: #253152;
 	padding: 10px 0;
 	position: fixed;
 	top: 0;
 	z-index: 99;
 	width: 100%;
 	opacity: 100%;
+	border-bottom: 1px solid black;
 }
 
 .container {

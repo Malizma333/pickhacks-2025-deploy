@@ -6,7 +6,8 @@
 	z-index: 99;
     /* background: url('../../../public/images/backgrounds/BackgroundNav.png'); */
     background-size: contain;
-    background-color: #0F0420;
+    background-color: #253152;
+	border-bottom: 1px solid black;
 }
 
 .logo {

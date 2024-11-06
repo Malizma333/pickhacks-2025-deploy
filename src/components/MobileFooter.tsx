@@ -5,8 +5,7 @@ const MobileFooter = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.top}>
-				<p className={styles.love}>made with love by ACM Hack</p>
-				<img src={heart.src} />
+				<p className={styles.love}>made with &lt;3 by ACM Hack</p>
 			</div>
 			<div className={styles.bottom}>
 				<div className={styles.linkContainer}>
