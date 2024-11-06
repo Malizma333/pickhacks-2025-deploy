@@ -4,6 +4,7 @@ import styles from '@/styles/components/Navbar.module.css';
 import Link from 'next/link';
 import { useMediaQuery } from 'usehooks-ts';
 import MobileNavbar from './MobileNavbar';
+import PushButton from './PushButton';
 
 function Navbar() {
 	const matches = useMediaQuery('(max-width: 1139px)');
@@ -19,29 +20,27 @@ function Navbar() {
 					<a href='#home' className={styles.logo}>
 						<img src={picklogo25.src} />
 					</a>
-					<li className={styles.item}>
+					<li>
 						<a className={styles.buttons} href='#schedule'>
 							Schedule
 						</a>
 					</li>
-					<li className={styles.item}>
+					<li>
 						<a className={styles.buttons} href='#sponsors'>
 							Sponsors
 						</a>
 					</li>
-					<li className={styles.item}>
+					<li>
 						<a className={styles.buttons} href='#faq'>
 							FAQ
 						</a>
 					</li>
-					<li className={styles.item}>
+					<li>
 						<a className={styles.buttons} href='#team'>
 							Team
 						</a>
 					</li>
-					<Link href='https://www.register.pickhacks.io' target='_blank' className={styles.applyButton}>
-						REGISTER
-					</Link>
+					<PushButton></PushButton>
 				</ul>
 				<ul className={styles.social}>
 					<div className={styles.socialContainer}>
