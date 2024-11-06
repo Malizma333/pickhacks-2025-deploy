@@ -1,208 +1,61 @@
 .main {
-	height: 100vh;
-	display: flex;
+  height: 100vh;
+  display: flex;
+  padding: 0 10vw;
 }
 
-.left {
-	flex: 1;
-	justify-content: right;
-	display: flex;
-}
-
-.securityGuard {
-	height: 47.5em;
-	width: 70em;
-	position: absolute;
-	top: 15%;
-	left: 17%;
-}
-
-.right {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	gap: 1em;
-	top: 25%;
-	top: 32%;
+.center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: max(6.2vw, 70.5px);
 }
 
 .title {
-	font-size: 6.75em;
-	left: -0.06em;
-	font-weight: bold;
-	background: linear-gradient(45deg, #fc77d9 0%, #a369f5 40%, #544bd6 65%, #5c52e0 92%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	line-height: 0.95em;
+  margin-bottom: 1em;
+  height: max(12.85vw, 146.3px);
 }
 
 .subtitle {
-	color: #9686ac;
-	font-size: 1.75em;
+  color: #828FB1;
+  font-size: max(1.5vw, 17px);
+  margin-bottom: 0.5em;
+}
+
+.emphasis {
+  color: #FF5B5B;
 }
 
 .date {
-	color: #ece8f1;
-	font-size: 2em;
-	font-weight: 500;
-	margin-bottom: 0.25em;
+  color: #C2C8D5;
+  font-size: max(1.8vw, 20px);
+  font-weight: 400;
+  margin-bottom: 1em;
 }
 
 .registerButton {
-	padding: 0.5em 1.5em;
-	background-color: transparent;
-	border: #ff52d2 2px solid;
-	border-radius: 2em;
-	color: white;
-	font-size: 1.3em;
-	font-weight: 500;
-	display: inline-block;
-	background: linear-gradient(to left, transparent 50%, #ff52d2 50%) right;
-	background-size: 202% 100%;
+  padding: 0.5em 1.5em;
+  background-color: transparent;
+  border: #ff52d2 2px solid;
+  border-radius: 2em;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  display: inline-block;
+  background: linear-gradient(to left, transparent 50%, #ff52d2 50%) right;
+  background-size: 202% 100%;
 }
 
 .registerButton:hover {
-	background-position: left;
-	transition: all 0.75s ease;
-	cursor: pointer;
+  background-position: left;
+  transition: all 0.75s ease;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1650px) {
-	.main {
-		font-size: 14px;
-	}
-	.right {
-		top: 28.75%;
-	}
-}
-@media screen and (max-width: 1460px) {
-	.main {
-		font-size: 13px;
-	}
-	.right {
-		top: 28%;
-	}
-}
-@media screen and (max-width: 1338px) {
-	.main {
-		font-size: 12px;
-	}
-	.right {
-		top: 27%;
-	}
-}
-@media screen and (max-width: 1226px) {
-	.main {
-		font-size: 11px;
-	}
-	.right {
-		top: 26%;
-	}
-}
-@media screen and (max-width: 1139px) {
-	.main {
-		font-size: 1.6vw;
-	}
-	.title {
-		left: 0;
-	}
-	.right {
-		top: 0%;
-		justify-content: center;
-		align-items: center;
-	}
-	.right div {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.registerButton {
-		background-color: #0f0420;
-	}
-	.date {
-		margin-bottom: 0.5em;
-	}
-}
+
 @media screen and (max-width: 550px) {
-	.main {
-		font-size: 2.4vw;
-	}
-	.title {
-		text-align: center;
-	}
-	.subtitle {
-		text-align: center;
-		margin-bottom: 0.5em;
-	}
-	.date {
-		font-size: 2.5em;
-	}
-	.registerButton {
-		font-size: 1.75em;
-	}
-}
-
-@media screen and (max-height: 900px) and (min-width: 1650px) {
-    .securityGuard {
-        top: 12%;
-    }
-    .right {
-        top: 30%;
-    }
-}
-
-@media screen and (max-height: 855px) and (min-width: 1650px) {
-    .securityGuard {
-        top: 5%;
-    }
-    .right {
-        top: 24%;
-    }
-}
-
-@media screen and (max-height: 800px) and (min-width: 1650px) {
-    .securityGuard {
-        top: 0;
-    }
-    .right {
-        top: 20%;
-    }
-}
-
-@media screen and (max-height: 870px) and (max-width: 1460px) {
-	.right {
-		top: 29%;
-	}
-}
-@media screen and (max-height: 870px) and (max-width: 1338px) {
-	.right {
-		top: 28%;
-	}
-}
-@media screen and (max-height: 870px) and (max-width: 1226px) {
-	.right {
-		top: 27%;
-	}
-}
-
-@media screen and (max-height: 800px) and (max-width: 1650px) {
-	.right {
-		top: 33%;
-	}
-}
-@media screen and (max-height: 800px) and (max-width: 1338px) {
-	.right {
-		top: 31%;
-	}
-}
-@media screen and (max-height: 800px) and (max-width: 1226px) {
-	.right {
-		top: 30%;
-	}
-}
-
-@media screen and (max-width: 1139px) {
-	.right {
-		top: 0;
-	}
+  .center {
+    margin-top: 100px;
+  }
 }

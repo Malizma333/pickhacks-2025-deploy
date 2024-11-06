@@ -1,4 +1,5 @@
 import background2025 from '../../public/images/backgrounds/Background2025.png';
+import pickhackssign from '../../public/images/backgrounds/PickhacksSign.png';
 import heart from '../../public/images/icons/Heart.png';
 import discord from '../../public/images/icons/IconDiscord.png';
 import instagram from '../../public/images/icons/IconInstagram.png';
@@ -45,6 +46,7 @@ import devpost from '../../public/images/icons/Devpost.png'
 
 export {
 	background2025,
+  pickhackssign,
 	heart,
 	discord,
 	instagram,

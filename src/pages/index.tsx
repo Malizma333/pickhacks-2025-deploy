@@ -29,8 +29,6 @@ export default function Home() {
 				<meta name='theme-color' content='#ff52d2' />
 			</Head>
 			<main className={styles.main}>
-				{/* Doesn't match layout size yet */}
-				{/* <object data={background2025.src} type="image/png" className={styles.background} /> */}
 				<Hero />
 				<div className={styles.section} id='schedule'>
 					<Title>Schedule</Title>
