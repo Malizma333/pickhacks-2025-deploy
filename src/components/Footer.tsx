@@ -23,8 +23,7 @@ const Footer = () => {
 				</a>
 			</div>
 			<div className={styles.mid}>
-				<p className={styles.love}>made with love by ACM Hack</p>
-				<img src={heart.src} />
+				<p className={styles.love}>made with &lt;3 by ACM Hack</p>
 			</div>
 			<p className={styles.right}>PickHacks 2025</p>
 		</footer>

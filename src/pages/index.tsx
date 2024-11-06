@@ -8,7 +8,6 @@ import Sponsors from '@/components/Sponsors';
 import Team from '@/components/Team';
 import Title from '@/components/Title';
 import TotalPrizes from '@/components/TotalPrizes';
-import { background2025 } from '@/lib/Images';
 import styles from '@/styles/Home.module.css';
 import Head from 'next/head';
 
@@ -17,45 +16,45 @@ export default function Home() {
 		<>
 			<Head>
 				<title>PickHacks 2025</title>
-				<meta name="author" content="PickHacks" />
-				<meta name="description" content="Stay up to date with the PickHacks 2025 event!" />
-				<meta name="keywords" content="hackathon,mst,pickhacks" />
-				<meta property="og:locale" content="en_US" />
-				<meta property="og:type" content="website" />
-				<meta property="og:title" content="PickHacks 2025" />
-				<meta property="og:description" content="Stay up to date with the PickHacks 2025 event!" />
-				<meta property="og:url" content="https://pickhacks.io" />
-				<meta property="og:site_name" content="PickHacks" />
-				<meta property="og:image" content="https://pickhacks.io/images/Logo2024.png" />
-				<meta name="theme-color" content="#ff52d2" />
+				<meta name='author' content='PickHacks' />
+				<meta name='description' content='Stay up to date with the PickHacks 2025 event!' />
+				<meta name='keywords' content='hackathon,mst,pickhacks' />
+				<meta property='og:locale' content='en_US' />
+				<meta property='og:type' content='website' />
+				<meta property='og:title' content='PickHacks 2025' />
+				<meta property='og:description' content='Stay up to date with the PickHacks 2025 event!' />
+				<meta property='og:url' content='https://pickhacks.io' />
+				<meta property='og:site_name' content='PickHacks' />
+				<meta property='og:image' content='https://pickhacks.io/images/Logo2025.png' />
+				<meta name='theme-color' content='#ff52d2' />
 			</Head>
 			<main className={styles.main}>
-        {/* Doesn't match layout size yet */}
+				{/* Doesn't match layout size yet */}
 				{/* <object data={background2025.src} type="image/png" className={styles.background} /> */}
 				<Hero />
-				<div className={styles.section} id="schedule">
+				<div className={styles.section} id='schedule'>
 					<Title>Schedule</Title>
 					<Schedule />
 					{/* <img src={leftblur.src} className={styles.leftBlur}></img>
 					<img src={rightblur.src} className={styles.rightBlur}></img> */}
 				</div>
-				<div className={styles.section} id="prizes">
+				<div className={styles.section} id='prizes'>
 					<Title>Prizes</Title>
 					<Prizes />
 					<TotalPrizes />
 				</div>
-				<div className={styles.section} style={{ minHeight: '75vh' }} id="sponsors">
+				<div className={styles.section} style={{ minHeight: '75vh' }} id='sponsors'>
 					<Title>Sponsors</Title>
 					<Sponsors />
 				</div>
-				<div className={styles.section} style={{ minHeight: '50vh', marginTop: '5em' }} id="partners">
+				<div className={styles.section} style={{ minHeight: '50vh', marginTop: '5em' }} id='partners'>
 					<Title>Partners</Title>
 					<Partners />
 				</div>
-				<div className={styles.section} style={{ marginTop: '5em' }} id="faq">
+				<div className={styles.section} style={{ marginTop: '5em' }} id='faq'>
 					<Title>FAQ</Title>
 					<Faq />
-					<div style={{ width: '100vw', marginTop: '5em', marginBottom: '2em' }} id="team">
+					<div style={{ width: '100vw', marginTop: '5em', marginBottom: '2em' }} id='team'>
 						<Title>Team</Title>
 						<Team></Team>
 					</div>
@@ -68,4 +67,3 @@ export default function Home() {
 		</>
 	);
 }
-
