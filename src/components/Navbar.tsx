@@ -40,7 +40,7 @@ function Navbar() {
 							Team
 						</a>
 					</li>
-					<PushButton></PushButton>
+					<PushButton variant='primary' href='https://www.register.pickhacks.io' text='register'></PushButton>
 				</ul>
 				<ul className={styles.social}>
 					<div className={styles.socialContainer}>
