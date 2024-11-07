@@ -80,7 +80,7 @@
     height: 22.5px;
 }
 
-.text {
+.text, .text_lg {
     letter-spacing: -1px;
     color: #470707;
 }
