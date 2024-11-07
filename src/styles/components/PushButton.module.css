@@ -1,27 +1,33 @@
-.outer {
+.outer, .outer_lg {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 100px;
     margin-top: -7.5px;
 }
 
-.top_primary {
+.outer {
+    height: 45px;
+    width: 100px;
+}
+
+.outer_lg {
+    height: 67.5px;
+    width: 150px;
+}
+
+.top_primary, .top_primary_lg {
     background: url('../../../public/images/ui/pushbutton-top-primary.png');
 }
 
-.top_secondary {
+.top_secondary, .top_secondary_lg {
     background: url('../../../public/images/ui/pushbutton-top-secondary.png');
 }
 
-.top_primary, .top_secondary {
+.top_primary, .top_secondary, .top_primary_lg, .top_secondary_lg {
     image-rendering: pixelated;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,30 +36,59 @@
     transition: all 0.1s;
 }
 
-.top_primary:hover, .top_secondary:hover {
-    margin-bottom: -13px;
+.top_primary, .top_secondary {
+    width: 100px;
+    height: 30px;
 }
 
-.bottom_primary {
+.top_primary_lg, .top_secondary_lg {
+    width: 150px;
+    height: 45px;
+}
+
+.top_primary:hover, .top_secondary:hover {
+    margin-bottom: -11px;
+}
+
+.top_primary_lg:hover, .top_secondary_lg:hover {
+    margin-bottom: -16.5px;
+}
+
+.bottom_primary, .bottom_primary_lg {
     background: url('../../../public/images/ui/pushbutton-bottom-primary.png');
 }
 
-.bottom_secondary {
+.bottom_secondary, .bottom_secondary_lg {
     background: url('../../../public/images/ui/pushbutton-bottom-secondary.png');
 }
 
-.bottom_primary, .bottom_secondary {
+.bottom_primary, .bottom_secondary, .bottom_primary_lg, .bottom_secondary_lg {
     image-rendering: pixelated;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
-    height: 15px;
     position: absolute;
     bottom: 0;
+}
+
+.bottom_primary, .bottom_secondary {
+    width: 100px;
+    height: 15px;
+}
+
+.bottom_primary_lg, .bottom_secondary_lg {
+    width: 150px;
+    height: 22.5px;
 }
 
 .text {
     letter-spacing: -1px;
     color: #470707;
+}
+
+.text {
     font-size: 15px;
+}
+
+.text_lg {
+    font-size: 20.5px;
 }
