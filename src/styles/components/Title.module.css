@@ -6,11 +6,8 @@
 }
 
 .title {
-	background: linear-gradient(45deg, #fc77d9 0%, #a369f5 40%, #544bd6 65%, #5c52e0 92%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	font-size: 4em;
-	font-weight: bold;
+	color: #C3C6E2;
 }
 
 @media screen and (max-width: 1000px) {

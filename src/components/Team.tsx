@@ -76,6 +76,7 @@ const Team = () => {
 	};
 	return (
 		<>
+			{/* 
 			<div className={styles.textContainer}>
 				<h2 className={styles.name}>{Members[selected].name}</h2>
 				<p className={styles.role}>{Members[selected].role}</p>
@@ -86,6 +87,10 @@ const Team = () => {
 						<Member avatar={member.avatar} linkedin={member.linkedin} index={i} key={member.name}></Member>
 					))}
 				</Slider>
+			</div>
+			*/}
+			<div className={styles.textContainer}>
+				TBD
 			</div>
 		</>
 	);

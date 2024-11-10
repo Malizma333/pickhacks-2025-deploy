@@ -14,29 +14,32 @@ const Faq = () => {
 	const [active, setActive] = useState<boolean[]>([false, false, false, false, false, false, false, false]);
 
 	return (
-		<div className={styles['faq-background']}>
-			<div className={styles['faq-content']}>
-				<div className={styles['faq-div']}>
-					{QAData1.map((el, i) => {
-						return <FaqAccordian question={el.question} answer={el.answer} turn={active} setTurn={setActive} idx={el.idx} key={'questions' + i} />;
-					})}
+		<>
+			{/* <div className={styles['faq-background']}>
+				<div className={styles['faq-content']}>
+					<div className={styles['faq-div']}>
+						{QAData1.map((el, i) => {
+							return <FaqAccordian question={el.question} answer={el.answer} turn={active} setTurn={setActive} idx={el.idx} key={'questions' + i} />;
+						})}
+					</div>
+					<div className={styles['faq-div']}>
+						{QAData2.map((el, i) => {
+							return (
+								<FaqAccordian
+									question={el.question}
+									answer={el.answer}
+									turn={active}
+									setTurn={setActive}
+									idx={el.idx}
+									key={'questions' + (i + halfIndex)}
+								/>
+							);
+						})}
+					</div>
 				</div>
-				<div className={styles['faq-div']}>
-					{QAData2.map((el, i) => {
-						return (
-							<FaqAccordian
-								question={el.question}
-								answer={el.answer}
-								turn={active}
-								setTurn={setActive}
-								idx={el.idx}
-								key={'questions' + (i + halfIndex)}
-							/>
-						);
-					})}
-				</div>
-			</div>
-		</div>
+			</div> */}
+			<div>TBD</div>
+		</>
 	);
 };
 
