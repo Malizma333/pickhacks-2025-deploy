@@ -2,7 +2,7 @@ import { IEvent } from '@/interfaces/IEvent';
 import { Events } from '@/lib/Events';
 import styles from '@/styles/components/Schedule.module.css';
 import { useState, useEffect } from 'react';
-import Title from '@/components/Title';
+import PushButton from '@/components/PushButton';
 
 const Schedule = () => {
 	const [selected, setSelected] = useState<string>('Friday');
@@ -23,14 +23,12 @@ const Schedule = () => {
       <p className={styles.header}>Schedule</p>
 			<div className={styles.row}>
 				{['Friday', 'Saturday', 'Sunday'].map((day) => (
-					<div
-						className={`${styles.dayContainer} ${selected === day ? styles.selectedDay : ''}`}
-						key={day}
-						onClick={() => toggle(day)}
-						// style={{ background: selected == day ? 'rgb(91, 82, 224)' : 'rgb(42, 20, 73)' }}
-					>
-						<p className={styles.day}>{day}</p>
-					</div>
+          <PushButton
+            variant={selected === day ? 'secondary' : 'primary'}
+            size='lg'
+            onClick={() => toggle(day)}
+            text={day}
+          ></PushButton>
 				))}
 			</div>
 			{currData.map((obj) => (
