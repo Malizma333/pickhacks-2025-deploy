@@ -78,6 +78,14 @@
 	text-align: left;
 }
 
+.pageNavButton {
+  background: none;
+  border: none;
+  font-size: 4em;
+  position: absolute;
+  bottom: 0;
+}
+
 @media screen and (max-width: 1300px) {
 	.App {
 		font-size: 15px;
