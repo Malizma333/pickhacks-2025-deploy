@@ -42,11 +42,11 @@ const Schedule = () => {
 			{currData.slice(page * eventsPerPage, (page + 1) * eventsPerPage).map((obj) => (
 				<div key={`${obj.day}-${obj.event}-${obj.time}`} className={styles.eventContainer}>
 					<div className={styles.column}>
-						<p className={styles.event}>{obj.event}</p>
-						<p className={styles.time}>{obj.time}</p>
+						<p>{obj.event}</p>
+						<p>{obj.time}</p>
 					</div>
 					<div className={styles.column}>
-						<p className={styles.location}>{obj.location}</p>
+						<p className={styles.rightText}>{obj.location}</p>
 					</div>
 				</div>
 			))}

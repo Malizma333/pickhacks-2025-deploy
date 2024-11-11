@@ -4,18 +4,18 @@
 	flex-direction: column;
   background-image: url('../../../public/images/backgrounds/ScheduleBackground.png');
   background-repeat: no-repeat;
-	background-size:contain;
+	background-size: contain;
   background-position: top;
-	padding: 3em 7.5em;
   box-sizing: border-box;
-	width: 70vw;
-	max-width: 52em;
-	min-width: 25em;
+  top: 22.5vw;
+  height: 40.5vw;
+  width: 45vw;
+  padding: 4em 10em;
 	z-index: 2;
 }
 
 .header {
-  font-size: 4em;
+  font-size: 3.4vw;
   color: #282A36;
 }
 
@@ -23,29 +23,8 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	gap: 4em;
-	margin: 1em;
-}
-
-.dayContainer {
-	border-radius: 50px;
-	min-width: 10em;
-	height: 3.75em;
-	width: 100%;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.selectedDay {
-	background-color: rgb(91, 82, 224);
-}
-
-.day {
-	font-size: 1.5em;
-	font-weight: 500;
-	background-color: transparent;
+	gap: 1.25vw;
+  margin-bottom: 2.25vw;
 }
 
 .eventContainer {
@@ -53,37 +32,29 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  margin-top: 3em;
-  height: 3.25em;
+  margin-top: 2.9vw;
+  height: 2.35vw;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
+  font-size: 1vw;
 }
 
-.event {
-	font-size: 1.2em;
-	line-height: 0.75em;
-}
-
-.location {
-	font-size: 1.2em;
+.rightText {
 	text-align: right;
-}
-
-.time {
-	font-size: 1.2em;
-	text-align: left;
 }
 
 .pageNavButton {
   background: none;
   border: none;
-  font-size: 4em;
+  font-size: 3vw;
   position: absolute;
   bottom: 0;
+  margin: 2.5vw;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {
