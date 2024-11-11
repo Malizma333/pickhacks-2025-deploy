@@ -2,6 +2,7 @@ import { IEvent } from '@/interfaces/IEvent';
 import { Events } from '@/lib/Events';
 import styles from '@/styles/components/Schedule.module.css';
 import { useState, useEffect } from 'react';
+import Title from '@/components/Title';
 
 const Schedule = () => {
 	const [selected, setSelected] = useState<string>('Friday');
@@ -19,6 +20,7 @@ const Schedule = () => {
 	};
 	return (
 		<div className={styles.App}>
+      <p className={styles.header}>Schedule</p>
 			<div className={styles.row}>
 				{['Friday', 'Saturday', 'Sunday'].map((day) => (
 					<div
