@@ -34,26 +34,6 @@
   margin-bottom: 1em;
 }
 
-.registerButton {
-  padding: 0.5em 1.5em;
-  background-color: transparent;
-  border: #ff52d2 2px solid;
-  border-radius: 2em;
-  color: white;
-  font-size: 1.3em;
-  font-weight: 500;
-  display: inline-block;
-  background: linear-gradient(to left, transparent 50%, #ff52d2 50%) right;
-  background-size: 202% 100%;
-}
-
-.registerButton:hover {
-  background-position: left;
-  transition: all 0.75s ease;
-  cursor: pointer;
-}
-
-
 @media screen and (max-width: 550px) {
   .center {
     margin-top: 100px;

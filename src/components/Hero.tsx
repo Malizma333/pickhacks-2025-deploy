@@ -1,6 +1,5 @@
 import { pickhackssign } from '@/lib/Images';
 import styles from '@/styles/components/Hero.module.css';
-import Link from 'next/link';
 import PushButton from './PushButton';
 
 const Hero = () => {
