@@ -1,6 +1,7 @@
 .main {
   display: flex;
   padding: 0 10vw;
+  border: 1px solid red;
 }
 
 .center {

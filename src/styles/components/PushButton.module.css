@@ -12,8 +12,8 @@
 }
 
 .outer_lg {
-    height: calc(3.54vw * 57/40);
-    width: 10.1vw;
+    height: calc(max(3.54vw, 40.3px) * 57/40);
+    width: max(10.1vw, 115px);
 }
 
 .top_primary, .top_primary_lg {
@@ -42,8 +42,8 @@
 }
 
 .top_primary_lg, .top_secondary_lg {
-    height: 3.54vw;
-    width: 10.1vw;
+    height: max(3.54vw, 40.3px);
+    width: max(10.1vw, 115px);
 }
 
 .top_primary:hover, .top_secondary:hover {
@@ -51,7 +51,7 @@
 }
 
 .top_primary_lg:hover, .top_secondary_lg:hover {
-    margin-bottom: calc(-3.54vw * 6/17);
+    margin-bottom: calc(-max(3.54vw, 40.3px) * 6/17);
 }
 
 .bottom_primary, .bottom_primary_lg {
@@ -76,9 +76,9 @@
 }
 
 .bottom_primary_lg, .bottom_secondary_lg {
-    height: calc(3.54vw * 17/40);
-    width: 10.1vw;
-    margin-bottom: calc(3.54vw * 2.5/17);
+    height: calc(max(3.54vw, 40.3px) * 17/40);
+    width: max(10.1vw, 115px);
+    margin-bottom: calc(max(3.54vw, 40.3px) * 2.5/17);
 }
 
 .text, .text_lg {
@@ -91,6 +91,6 @@
 }
 
 .text_lg {
-    font-size: 1.5vw;
-    margin-top: -0.7vw;
+    font-size: max(1.5vw, 17.1px);
+    margin-top: max(-0.7vw, -8px);
 }
