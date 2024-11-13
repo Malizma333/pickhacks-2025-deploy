@@ -63,13 +63,14 @@ const Prizes = () => {
 	};
 	return (
 		<>
-			<div className={styles.carouselContainer}>
+			{/* <div className={styles.carouselContainer}>
 				<Slider {...settings} className={styles.inner}>
 					{PrizeList.map((item) => (
 						<PrizeCard key={item.id} title={item.title} description={item.description} image={item.img} link={item.link}></PrizeCard>
 					))}
 				</Slider>
-			</div>
+			</div> */}
+			<div>TBD</div>
 		</>
 	);
 };
