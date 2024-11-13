@@ -31,10 +31,7 @@ export default function Home() {
 			<main className={styles.main}>
 				<Hero />
 				<div className={styles.section} id='schedule'>
-					<Title>Schedule</Title>
 					<Schedule />
-					{/* <img src={leftblur.src} className={styles.leftBlur}></img>
-					<img src={rightblur.src} className={styles.rightBlur}></img> */}
 				</div>
 				<div className={styles.section} id='prizes'>
 					<Title>Prizes</Title>
