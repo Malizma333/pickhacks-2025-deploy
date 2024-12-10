@@ -51,7 +51,7 @@
 }
 
 .top_primary_lg:hover, .top_secondary_lg:hover {
-    margin-bottom: calc(-max(3.54vw, 40.3px) * 6/17);
+    margin-bottom: calc(max(3.54vw, 40.3px) * -6/17);
 }
 
 .bottom_primary, .bottom_primary_lg {

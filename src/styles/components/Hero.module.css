@@ -1,7 +1,6 @@
 .main {
   display: flex;
   padding: 0 10vw;
-  border: 1px solid red;
 }
 
 .center {
@@ -21,6 +20,7 @@
   color: #828FB1;
   font-size: max(1.5vw, 17px);
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .emphasis {
@@ -32,6 +32,7 @@
   font-size: max(1.8vw, 20px);
   font-weight: 400;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 @media screen and (max-width: 550px) {

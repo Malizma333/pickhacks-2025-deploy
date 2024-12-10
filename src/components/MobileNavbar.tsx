@@ -1,8 +1,8 @@
 import { devpost, discord, instagram, linkedin, picklogo25, tiktok } from '@/lib/Images';
 import styles from '@/styles/components/MobileNavbar.module.css';
-import Link from 'next/link';
 import { useState } from 'react';
 import { IoClose, IoMenu } from 'react-icons/io5';
+import PushButton from './PushButton';
 
 const MobileNavbar = () => {
 	const [open, setOpen] = useState(false);
@@ -46,9 +46,17 @@ const MobileNavbar = () => {
 				<a href='#team' className={styles.navbarOption} onClick={() => setOpen(false)}>
 					Team
 				</a>
-				<Link href='' target='_blank' className={styles.registerButton}>
-					REGISTER
-				</Link>
+				<PushButton
+					variant='primary'
+					size='lg'
+					onClick={() =>
+						window.open(
+							'https://my.mlh.io/oauth/authorize?client_id=woPXesu6aEqBIRPV1t50oe_QKrnRNDXX45BG7OcQD2A&redirect_uri=https%3A%2F%2Fadmin.pickhacks.io%2Fapi%2Fauth-callback&scope=+public+user%3Aread%3Aprofile+user%3Aread%3Aeducation+user%3Aread%3Asocial_profiles+user%3Aread%3Aemail+user%3Aread%3Aevent_preferences+user%3Aread%3Aphone&response_type=code',
+							'_blank'
+						)
+					}
+					text='register'
+				></PushButton>
 				<div className={styles.socials}>
 					<a className={styles.icon} href='https://pickhacks-2025.devpost.com/' target='_blank'>
 						<img src={devpost.src} />

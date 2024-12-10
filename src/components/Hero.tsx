@@ -12,7 +12,12 @@ const Hero = () => {
         <PushButton
           variant='primary'
           size='lg'
-          onClick={() => window.open('https://www.register.pickhacks.io', '_blank')}
+          onClick={() =>
+            window.open(
+                'https://my.mlh.io/oauth/authorize?client_id=woPXesu6aEqBIRPV1t50oe_QKrnRNDXX45BG7OcQD2A&redirect_uri=https%3A%2F%2Fadmin.pickhacks.io%2Fapi%2Fauth-callback&scope=+public+user%3Aread%3Aprofile+user%3Aread%3Aeducation+user%3Aread%3Asocial_profiles+user%3Aread%3Aemail+user%3Aread%3Aevent_preferences+user%3Aread%3Aphone&response_type=code',
+                '_blank'
+            )
+        }
           text='register'
         ></PushButton>
       </div>

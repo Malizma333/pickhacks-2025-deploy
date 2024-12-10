@@ -1,13 +1,7 @@
-import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
-import Partners from '@/components/Partners';
-import Prizes from '@/components/Prizes';
 import Schedule from '@/components/Schedule';
-import Sponsors from '@/components/Sponsors';
-import Team from '@/components/Team';
 import Title from '@/components/Title';
-import TotalPrizes from '@/components/TotalPrizes';
 import styles from '@/styles/Home.module.css';
 import Head from 'next/head';
 
@@ -35,28 +29,32 @@ export default function Home() {
 				</div>
 				<div className={styles.section} id='prizes'>
 					<Title>Prizes</Title>
-					<Prizes />
-					<TotalPrizes />
+					<p className={styles.tbd}>TBD</p>
+					{/* <Prizes />
+					<TotalPrizes /> */}
 				</div>
 				<div className={styles.section} style={{ minHeight: '75vh' }} id='sponsors'>
 					<Title>Sponsors</Title>
-					<Sponsors />
+					<p className={styles.tbd}>TBD</p>
+					{/* <Sponsors /> */}
 				</div>
 				<div className={styles.section} style={{ minHeight: '50vh', marginTop: '5em' }} id='partners'>
 					<Title>Partners</Title>
-					<Partners />
+					<p className={styles.tbd}>TBD</p>
+					{/* <Partners /> */}
 				</div>
 				<div className={styles.section} style={{ marginTop: '5em' }} id='faq'>
 					<Title>FAQ</Title>
-					<Faq />
+					<p className={styles.tbd}>TBD</p>
+					{/* <Faq /> */}
 					<div style={{ width: '100vw', marginTop: '5em', marginBottom: '2em' }} id='team'>
 						<Title>Team</Title>
-						<Team></Team>
+						<div style={{ display: 'flex', justifyContent: 'center' }}>
+							<p className={styles.tbd}>TBD</p>
+						</div>
+						{/* <Team></Team> */}
 					</div>
 				</div>
-				{/* <div className={styles.smallGuySection}>
-					<img src={littlestGuy.src} />
-				</div> */}
 			</main>
 			<Footer />
 		</>
