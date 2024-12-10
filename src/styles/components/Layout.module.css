@@ -2,6 +2,8 @@
 	background-image: url('../../../public/images/backgrounds/Background2025.png');
 	background-color: #0f0420;
 	background-repeat: no-repeat;
-	background-size: max(200vh, 1400px);
+  background-size: cover;
+	/* background-size: max(200vh, 1400px); */
   background-position: top;
+  /* background-position-y: 200px; */
 }
