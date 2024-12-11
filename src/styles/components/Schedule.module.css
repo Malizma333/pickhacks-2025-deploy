@@ -1,4 +1,5 @@
 .App {
+  --min-screen: 1140px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -7,15 +8,15 @@
 	background-size: contain;
   background-position: top;
   box-sizing: border-box;
-  margin-top: max(30vw, 341.4px);
-  height: max(40.5vw, 460.9px);
-  width: max(45vw, 512.1px);
-  padding: max(2.5vw, 28.45px) max(6.5vw, 74px);
+  margin-top: max(30vw, calc(0.3 * var(--min-screen)));
+  height: max(40.5vw, calc(0.405 * var(--min-screen)));
+  width: max(45vw, calc(0.45 * var(--min-screen)));
+  padding: max(2.5vw, calc(0.025 * var(--min-screen))) max(6.5vw, calc(0.065 * var(--min-screen)));
 	z-index: 2;
 }
 
 .header {
-  font-size: max(3.4vw, 38.7px);
+  font-size: max(3.4vw, calc(0.034 * var(--min-screen)));
   color: #282A36;
 }
 
@@ -23,7 +24,7 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	gap: max(1.25vw, 14px);
+	gap: max(1.25vw, calc(0.0125 * var(--min-screen)));
 }
 
 .eventContainer {
@@ -31,15 +32,15 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  margin-top: max(2.9vw, 33px);
-  height: max(2.35vw, 26.7px);
+  margin-top: max(2.9vw, calc(0.029 * var(--min-screen)));
+  height: max(2.35vw, calc(0.0235 * var(--min-screen)));
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-  font-size: max(1vw, 11.4px);
+  font-size: max(1vw, calc(0.01 * var(--min-screen)));
 }
 
 .rightText {
@@ -49,9 +50,9 @@
 .pageNavButton {
   background: none;
   border: none;
-  font-size: max(3vw, 34.2px);
+  font-size: max(3vw, calc(0.03 * var(--min-screen)));
   position: absolute;
   bottom: 0;
-  margin: max(2.5vw, 28.5px);
+  margin: max(2.5vw, calc(0.025 * var(--min-screen)));
   cursor: pointer;
 }
