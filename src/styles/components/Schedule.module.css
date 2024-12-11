@@ -1,5 +1,5 @@
 .App {
-  --min-screen: 1140px;
+  --min-screen: 640px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;

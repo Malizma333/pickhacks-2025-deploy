@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import { background2025 } from '@/lib/Images';
 import styles from '@/styles/components/Layout.module.css';
 import Navbar from './Navbar';
 interface IProps {

@@ -1,5 +1,5 @@
 .outer, .outer_lg {
-  --min-screen: 1140px;
+  --min-screen: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
