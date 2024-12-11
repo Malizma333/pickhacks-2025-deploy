@@ -41,7 +41,9 @@ export default function Home() {
 				<meta name='theme-color' content='#ff52d2' />
 			</Head>
 			<main className={styles.main}>
-				<Hero />
+        <div className={styles.section} id='hero'>
+					<Hero />
+				</div>
 				<div className={styles.section} id='schedule'>
 					<Schedule />
 				</div>
