@@ -4,8 +4,26 @@ import Schedule from '@/components/Schedule';
 import Title from '@/components/Title';
 import styles from '@/styles/Home.module.css';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function Home() {
+	const router = useRouter();
+
+	useEffect(() => {
+		if (!router.isReady) {
+			return;
+		}
+        console.log(router.query.err)
+		if (router.query.message) {
+            toast.success('Successfully registered for MyMLH');
+		}
+        else if (router.query.err) {
+            toast.error("Error while registering for MyMLH")
+        }
+	}, [router.isReady]);
+
 	return (
 		<>
 			<Head>
@@ -57,6 +75,7 @@ export default function Home() {
 				</div>
 			</main>
 			<Footer />
+			<Toaster position='top-right' containerStyle={{zIndex: 9999999}}/>
 		</>
 	);
 }
