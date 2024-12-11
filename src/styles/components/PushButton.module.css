@@ -1,19 +1,20 @@
 .outer, .outer_lg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  --min-screen: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .outer {
-    height: 45px;
-    width: 100px;
-    margin-top: -7.5px;
+  height: 45px;
+  width: 100px;
+  margin-top: -7.5px;
 }
 
 .outer_lg {
-    height: calc(max(3.54vw, 40.3px) * 57/40);
-    width: max(10.1vw, 115px);
+  height: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * 57/40);
+  width: max(10.1vw, calc(0.101 * var(--min-screen)));
 }
 
 .top_primary, .top_primary_lg {
@@ -42,8 +43,8 @@
 }
 
 .top_primary_lg, .top_secondary_lg {
-    height: max(3.54vw, 40.3px);
-    width: max(10.1vw, 115px);
+    height: max(3.54vw, calc(0.0354 * var(--min-screen)));
+    width: max(10.1vw, calc(0.101 * var(--min-screen)));
 }
 
 .top_primary:hover, .top_secondary:hover {
@@ -51,7 +52,7 @@
 }
 
 .top_primary_lg:hover, .top_secondary_lg:hover {
-    margin-bottom: calc(max(3.54vw, 40.3px) * -6/17);
+    margin-bottom: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * -6/17);
 }
 
 .bottom_primary, .bottom_primary_lg {
@@ -76,9 +77,9 @@
 }
 
 .bottom_primary_lg, .bottom_secondary_lg {
-    height: calc(max(3.54vw, 40.3px) * 17/40);
-    width: max(10.1vw, 115px);
-    margin-bottom: calc(max(3.54vw, 40.3px) * 2.5/17);
+    height: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * 17/40);
+    width: max(10.1vw, calc(0.101 * var(--min-screen)));
+    margin-bottom: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * 2.5/17);
 }
 
 .text, .text_lg {
@@ -91,6 +92,6 @@
 }
 
 .text_lg {
-    font-size: max(1.5vw, 17.1px);
-    margin-top: max(-0.7vw, -8px);
+    font-size: max(1.5vw, calc(0.015 * var(--min-screen)));
+    margin-top: max(-0.7vw, calc(-0.007 * var(--min-screen)));
 }
