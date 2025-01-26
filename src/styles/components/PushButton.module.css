@@ -85,7 +85,7 @@
 
 .text_lg {
   font-size: max(1.5vw, calc(0.015 * var(--min-screen)));
-  margin-top: max(-0.7vw, calc(-0.007 * var(--min-screen)));
+  margin-bottom: 0.5em;
 }
 
 .hitbox {
@@ -104,5 +104,5 @@
 }
 
 .hitbox:hover ~ .top_primary_lg, .top_secondary_lg {
-    margin-bottom: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * -6/17);
+  margin-bottom: calc(max(3.54vw, calc(0.0354 * var(--min-screen))) * -6/17);
 }

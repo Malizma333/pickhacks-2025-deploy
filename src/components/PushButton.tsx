@@ -23,7 +23,7 @@ const PushButton: React.FC<PushButtonProps> = ({variant, size, onClick, text}) =
     <div className={styleArray[0]}>
       <div className={styles.hitbox} onClick={() => onClick && onClick()}></div> {/* Keep this div on top */}
       <div className={styleArray[1]}>
-          <p className={styleArray[2]}>{text}</p>
+        <p className={styleArray[2]}>{text}</p>
       </div>
       <div className={styleArray[3]}></div>
     </div>
