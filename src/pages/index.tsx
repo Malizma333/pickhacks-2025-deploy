@@ -7,6 +7,8 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
+import Faq from '@/components/Faq';
+import Sponsors from '@/components/Sponsors';
 
 export default function Home() {
 	const router = useRouter();
@@ -55,8 +57,7 @@ export default function Home() {
 				</div>
 				<div className={styles.section} style={{ minHeight: '75vh' }} id='sponsors'>
 					<Title>Sponsors</Title>
-					<p className={styles.tbd}>TBD</p>
-					{/* <Sponsors /> */}
+					<Sponsors />
 				</div>
 				<div className={styles.section} style={{ minHeight: '50vh', marginTop: '5em' }} id='partners'>
 					<Title>Partners</Title>
@@ -65,8 +66,7 @@ export default function Home() {
 				</div>
 				<div className={styles.section} style={{ marginTop: '5em' }} id='faq'>
 					<Title>FAQ</Title>
-					<p className={styles.tbd}>TBD</p>
-					{/* <Faq /> */}
+					<Faq />
 					<div style={{ width: '100vw', marginTop: '5em', marginBottom: '2em' }} id='team'>
 						<Title>Team</Title>
 						<div style={{ display: 'flex', justifyContent: 'center' }}>

@@ -55,4 +55,13 @@
   bottom: 0;
   margin: max(2.5vw, calc(0.025 * var(--min-screen)));
   cursor: pointer;
+  color: #CF3030;
+}
+
+.pageNavButton:hover {
+    color: #bd2c2c;
+}
+
+.pageNavButton:disabled {
+    color: gray;
 }

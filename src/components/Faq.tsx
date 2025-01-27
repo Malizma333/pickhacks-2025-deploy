@@ -15,7 +15,7 @@ const Faq = () => {
 
 	return (
 		<>
-			{/* <div className={styles['faq-background']}>
+			<div className={styles['faq-background']}>
 				<div className={styles['faq-content']}>
 					<div className={styles['faq-div']}>
 						{QAData1.map((el, i) => {
@@ -37,8 +37,7 @@ const Faq = () => {
 						})}
 					</div>
 				</div>
-			</div> */}
-			<div>TBD</div>
+			</div>
 		</>
 	);
 };

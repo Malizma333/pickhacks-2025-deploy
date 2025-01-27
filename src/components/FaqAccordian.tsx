@@ -21,9 +21,9 @@ const FaqAccordian = ({ question, answer, turn, setTurn, idx }: Props) => {
 			<button onClick={toggleAccordian} className={styles['faq-button']}>
 				<div className={styles['faq-bullet']}>
 					{turn![idx] ? (
-						<img className={styles['bullet-img']} alt="" />
+						<img className={styles['bullet-img']} alt="" src="/images/icons/Minus.png" />
 					) : (
-						<img className={styles['bullet-img']} alt="" />
+						<img className={styles['bullet-img']} alt="" src="/images/icons/Plus.png" />
 					)}
 					<p className={styles['faq-question']}>{question}</p>
 				</div>

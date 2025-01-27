@@ -89,5 +89,5 @@ export {
 	mlh,
 	standoutstickers,
 	stuco,
-    devpost
+    devpost,
 };
