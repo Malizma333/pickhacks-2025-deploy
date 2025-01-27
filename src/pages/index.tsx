@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import Faq from '@/components/Faq';
 import Sponsors from '@/components/Sponsors';
+import Partners from '@/components/Partners';
 
 export default function Home() {
 	const router = useRouter();
@@ -61,8 +62,7 @@ export default function Home() {
 				</div>
 				<div className={styles.section} style={{ minHeight: '50vh', marginTop: '5em' }} id='partners'>
 					<Title>Partners</Title>
-					<p className={styles.tbd}>TBD</p>
-					{/* <Partners /> */}
+					<Partners />
 				</div>
 				<div className={styles.section} style={{ marginTop: '5em' }} id='faq'>
 					<Title>FAQ</Title>

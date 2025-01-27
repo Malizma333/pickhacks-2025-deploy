@@ -38,11 +38,13 @@ import shelter from '../../public/images/sponsors/ShelterLogo.png'
 import johndeere from '../../public/images/sponsors/JohnDeereLogo.png'
 import sandia from '../../public/images/sponsors/SandiaLogo.png'
 import nsc from '../../public/images/sponsors/NSCLogo.png'
+import veteransunited from '../../public/images/sponsors/VeteransUnitedLogo.png'
 import mosystems from '../../public/images/partners/missouri-systems-logo.png'
 import mlh from '../../public/images/partners/mlh-logo.png'
 import standoutstickers from '../../public/images/partners/stand-out-stickers-logo.png'
 import stuco from '../../public/images/partners/student-council-logo.jpg'
 import devpost from '../../public/images/icons/Devpost.png'
+
 
 export {
 	background2025,
@@ -85,6 +87,7 @@ export {
 	johndeere,
 	sandia,
 	nsc,
+    veteransunited,
 	mosystems,
 	mlh,
 	standoutstickers,
