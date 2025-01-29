@@ -1,5 +1,5 @@
 .App {
-  --min-screen: 640px;
+  --min-screen: 700px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -8,7 +8,7 @@
 	background-size: contain;
   background-position: top;
   box-sizing: border-box;
-  margin-top: max(30vw, calc(0.3 * var(--min-screen)));
+  margin-top: max(16vw, calc(0.16 * var(--min-screen)));
   height: max(40.5vw, calc(0.405 * var(--min-screen)));
   width: max(45vw, calc(0.45 * var(--min-screen)));
   padding: max(2.5vw, calc(0.025 * var(--min-screen))) max(6.5vw, calc(0.065 * var(--min-screen)));

@@ -6,7 +6,8 @@ interface IProps {
 
 export default function Layout({ children }: IProps) {
 	return (
-		<div className={styles.main}>
+		<div>
+      <div className={styles.imageContainer}></div>
 			<Navbar />
 			{children}
 		</div>
