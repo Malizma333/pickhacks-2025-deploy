@@ -32,6 +32,5 @@
   color: #C2C8D5;
   font-size: max(1.8vw, calc(0.018 * var(--min-screen)));
   font-weight: 400;
-  margin-bottom: 1em;
   text-align: center;
 }
