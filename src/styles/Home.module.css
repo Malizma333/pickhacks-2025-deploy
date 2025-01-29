@@ -1,5 +1,5 @@
 .section {
-	min-height: max(100vh, 500px);
+  min-height: max(545.625px, 56.25vw);
 	padding-top: 3em;
 	display: flex;
 	flex-direction: column;

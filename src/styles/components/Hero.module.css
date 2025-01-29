@@ -1,5 +1,5 @@
 .main {
-  --min-screen: 1140px;
+  --min-screen: 700px;
   display: flex;
   padding: 0 10vw;
 }
