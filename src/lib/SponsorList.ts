@@ -42,6 +42,6 @@ export const BronzeSponsors: ISponsor[] = [
 	},
     {
 		logo: veteransunited.src,
-		link: 'https://kcnsc.doe.gov/',
+		link: 'https://www.veteransunitedinsurance.com/',
 	},
 ];
