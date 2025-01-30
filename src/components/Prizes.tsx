@@ -10,8 +10,9 @@ import PrizeCard from './PrizeCard';
 function PrevArrow(props: any) {
 	const { className, style, onClick } = props;
 	return (
-		<div className={styles.leftButton} style={{ ...style, display: 'block' }} onClick={onClick}>
-			<FiChevronLeft />
+		<div className={styles.leftButton} onClick={onClick}>
+			{/*<FiChevronLeft />*/}
+			<img src="/images/buttons/PrizeButton.png" className={styles.leftButtonImage}></img>
 		</div>
 	);
 }
@@ -19,8 +20,9 @@ function PrevArrow(props: any) {
 function NextArrow(props: any) {
 	const { className, style, onClick } = props;
 	return (
-		<div className={styles.rightButton} style={{ ...style, display: 'block' }} onClick={onClick}>
-			<FiChevronRight />
+		<div className={styles.rightButton} onClick={onClick}>
+			{/*<FiChevronRight />*/}
+			<img src="/images/buttons/PrizeButton.png" className={styles.rightButtonImage}></img>
 		</div>
 	);
 }
@@ -63,14 +65,13 @@ const Prizes = () => {
 	};
 	return (
 		<>
-			{/* <div className={styles.carouselContainer}>
+			<div className={styles.carouselContainer}>
 				<Slider {...settings} className={styles.inner}>
 					{PrizeList.map((item) => (
 						<PrizeCard key={item.id} title={item.title} description={item.description} image={item.img} link={item.link}></PrizeCard>
 					))}
 				</Slider>
-			</div> */}
-			<div>TBD</div>
+			</div>
 		</>
 	);
 };

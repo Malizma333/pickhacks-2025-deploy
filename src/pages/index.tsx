@@ -8,6 +8,8 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import Faq from '@/components/Faq';
+import TotalPrizes from '@/components/TotalPrizes'
+import Prizes from '@/components/Prizes'
 import Sponsors from '@/components/Sponsors';
 import Partners from '@/components/Partners';
 
@@ -50,11 +52,10 @@ export default function Home() {
 				<div className={styles.section} id='schedule'>
 					<Schedule />
 				</div>
-				<div className={styles.section} id='prizes'>
+				<div className={styles.section} style={{ marginTop: '5em' }} id='prizes'>
 					<Title>Prizes</Title>
-					<p className={styles.tbd}>TBD</p>
-					{/* <Prizes />
-					<TotalPrizes /> */}
+					<Prizes />
+					{/*<TotalPrizes />*/}
 				</div>
 				<div className={styles.section} style={{ minHeight: '75vh' }} id='sponsors'>
 					<Title>Sponsors</Title>

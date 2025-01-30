@@ -25,11 +25,9 @@ import tyler from '../../public/images/placeholder.png'; // import tyler from '.
 import vishaanthm from '../../public/images/placeholder.png'; // import vishaanthm from '../../public/images/avatars/vishaanthm.png';
 import shrijam from '../../public/images/placeholder.png'; // import shrijam from '../../public/images/avatars/shrijam.png';
 import laurenh from '../../public/images/placeholder.png'; // import laurenh from '../../public/images/avatars/laurenh.png';
-import metaquest3 from '../../public/images/placeholder.png'; // import metaquest3 from '../../public/images/prizes/metaquest3.jpg';
 import sennheiser from '../../public/images/placeholder.png'; // import sennheiser from '../../public/images/prizes/sennheiser.png';
 import switcholed from '../../public/images/placeholder.png'; // import switcholed from '../../public/images/prizes/switcholed.png';
 import keyboard from '../../public/images/placeholder.png'; // import keyboard from '../../public/images/prizes/logitechkeyboard.png';
-import giftcard from '../../public/images/placeholder.png'; // import giftcard from '../../public/images/prizes/giftcard.png';
 import projector from '../../public/images/placeholder.png'; // import projector from '../../public/images/prizes/projector.jpg';
 import watch from '../../public/images/placeholder.png'; // import watch from '../../public/images/prizes/watch.png';
 import tradebot from '../../public/images/sponsors/TradebotLogo.png'
@@ -44,11 +42,19 @@ import mlh from '../../public/images/partners/mlh-logo.png'
 import standoutstickers from '../../public/images/partners/stand-out-stickers-logo.png'
 import stuco from '../../public/images/partners/student-council-logo.jpg'
 import devpost from '../../public/images/icons/Devpost.png'
+// Prizes
+import bambulab from '../../public/images/prizes/bambulab.webp'
+import acer from '../../public/images/prizes/acer.webp'
+import kingspec from '../../public/images/prizes/kingspec.webp'
+import beats from '../../public/images/prizes/beats.webp'
+import redragon from '../../public/images/prizes/redragon.webp'
+import metaquest3 from '../../public/images/prizes/metaquest3.webp'
+import giftcard from '../../public/images/prizes/giftcard.webp';
 
 
 export {
 	background2025,
-  pickhackssign,
+  	pickhackssign,
 	heart,
 	discord,
 	instagram,
@@ -74,11 +80,9 @@ export {
 	vishaanthm,
 	shrijam,
 	laurenh,
-	metaquest3,
 	sennheiser,
 	switcholed,
 	keyboard,
-	giftcard,
 	projector,
 	watch,
 	tradebot,
@@ -93,4 +97,11 @@ export {
 	standoutstickers,
 	stuco,
     devpost,
+	bambulab,
+	acer,
+	kingspec,
+	beats,
+	redragon,
+	metaquest3,
+	giftcard,
 };
