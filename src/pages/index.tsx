@@ -43,7 +43,7 @@ export default function Home() {
 				<meta property='og:url' content='https://pickhacks.io' />
 				<meta property='og:site_name' content='PickHacks' />
 				<meta property='og:image' content='https://pickhacks.io/images/Logo2025.png' />
-				<meta name='theme-color' content='#ff52d2' />
+				<meta name='theme-color' content='#191F35' />
 			</Head>
 			<main className={styles.main}>
         <div className={styles.section} id='hero'>
