@@ -5,35 +5,35 @@
 }
 
 .cardContainer {
-	height: 20em;
-	width: 20em;
-	background-color: #2a1449;
+	height: 15em;
+	width: 15em;
 	flex-shrink: 0;
-	border-radius: 1rem;
 	padding: 2em;
-	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 	transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
 	display: flex;
 	flex-direction: column;
 	gap: 0.5em;
 	cursor: pointer;
-	margin: 1em;
+	
+	background-image: url("/images/backgrounds/PrizeFrame.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .cardContainer:hover {
 	transform: scale(1.015);
-	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .title {
-	color: white;
-	font-size: 1.5em;
+	color: #FFFFFF;
+	font-size: 1.1em;
 	font-weight: medium;
 }
 
 .description {
 	color: #ded4eb;
-	font-size: 1.1em;
+	font-size: 0.7em;
     margin-bottom: 1em;
 }
 

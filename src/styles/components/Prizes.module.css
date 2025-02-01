@@ -1,55 +1,51 @@
-.leftButton {
+.leftButton, .rightButton {
 	position: absolute;
-	left: 0;
 	top: 50%;
 	z-index: 30;
-	border-top-right-radius: 0.75rem;
-	border-bottom-right-radius: 0.75rem;
-	background-color: rgba(237, 223, 255, 0.3);
-	padding: 0.75rem;
-	padding-left: 0.5rem;
-	font-size: 2.25rem;
-	line-height: 2.5rem;
-	color: #f675db;
-	backdrop-filter: blur(4px);
-	transition: padding;
+	transition: padding 0.2s ease;
 	cursor: pointer;
-	border: none;
-	transform: translate(0, -50%);
+	transform: translateY(-50%);
+	display: flex;
+	justify-items: center;
+	align-items: center;
 }
 
-.leftButton:hover {
-	padding-left: 0.75rem;
+.leftButton {
+	left: 0;
+	margin-left: 4em;
 }
 
 .rightButton {
-	position: absolute;
 	right: 0;
-	top: 50%;
-	z-index: 30;
-	border-top-left-radius: 0.75rem;
-	border-bottom-left-radius: 0.75rem;
-	background-color: rgba(237, 223, 255, 0.3);
-	padding: 0.75rem;
-	padding-right: 0.5rem;
-	font-size: 2.25rem;
-	line-height: 2.5rem;
-	color: #f675db;
-	backdrop-filter: blur(4px);
-	transition: padding;
-	cursor: pointer;
-	transform: translate(0, -50%);
-	border: none;
+	margin-right: 4em;
 }
 
-.rightButton:hover {
-	padding-right: 0.75rem;
+.leftButtonImage {
+	height: 4em;
+	width: auto;
 }
+
+.rightButtonImage {
+	height: 4em;
+	width: auto;
+	transform: rotate(180deg);
+    transform-origin: center;
+}
+
+@media screen and (max-width: 600px) {
+	.leftButton {
+		margin-left: 0em;
+	}
+	.rightButton {
+		margin-right: 0em;
+	}
+	.carouselContainer {
+		width: 100vw;
+	}
+  }
 
 .carouselContainer {
-	width: 100%;
-	background-color: rgba(27, 11, 50, 0.6);
-	width: 100vw;
+	width: 75vw;
 	padding: 0.5em 0;
 	z-index: 20;
 }
