@@ -5,8 +5,8 @@
 }
 
 .cardContainer {
-	height: 20em;
-	width: 20em;
+	height: 15em;
+	width: 15em;
 	flex-shrink: 0;
 	padding: 2em;
 	transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
@@ -14,7 +14,6 @@
 	flex-direction: column;
 	gap: 0.5em;
 	cursor: pointer;
-	margin: 1em;
 	
 	background-image: url("/images/backgrounds/PrizeFrame.png");
 	background-size: contain;
@@ -28,13 +27,13 @@
 
 .title {
 	color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	font-weight: medium;
 }
 
 .description {
 	color: #ded4eb;
-	font-size: 1.1em;
+	font-size: 0.7em;
     margin-bottom: 1em;
 }
 
