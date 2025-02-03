@@ -12,6 +12,7 @@ import TotalPrizes from '@/components/TotalPrizes'
 import Prizes from '@/components/Prizes'
 import Sponsors from '@/components/Sponsors';
 import Partners from '@/components/Partners';
+import Team from '@/components/Team';
 
 export default function Home() {
 	const router = useRouter();
@@ -70,10 +71,7 @@ export default function Home() {
 					<Faq />
 					<div style={{ width: '100vw', marginTop: '5em', marginBottom: '2em' }} id='team'>
 						<Title>Team</Title>
-						<div style={{ display: 'flex', justifyContent: 'center' }}>
-							<p className={styles.tbd}>TBD</p>
-						</div>
-						{/* <Team></Team> */}
+						<Team></Team>
 					</div>
 				</div>
 			</main>
