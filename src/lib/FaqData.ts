@@ -14,7 +14,7 @@ export const QAData: IQA[] = [
 	{
 		idx: 2,
 		question: 'When will PickHacks take place?',
-		answer: 'PickHacks is taking place the weekend of April 5th through 7th!',
+		answer: 'PickHacks is taking place the weekend of Feb 28th - March 2nd!',
 	},
 	{
 		idx: 3,
