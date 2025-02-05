@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
 	background-size: contain;
   background-position: top;
+  image-rendering: pixelated;
   box-sizing: border-box;
   margin-top: max(16vw, calc(0.16 * var(--min-screen)));
   height: max(40.5vw, calc(0.405 * var(--min-screen)));

@@ -19,10 +19,12 @@
 
 .top_primary, .top_primary_lg {
   background: url('../../../public/images/ui/pushbutton-top-primary.png');
+  image-rendering: pixelated;
 }
 
 .top_secondary, .top_secondary_lg {
   background: url('../../../public/images/ui/pushbutton-top-secondary.png');
+  image-rendering: pixelated;
 }
 
 .top_primary, .top_secondary, .top_primary_lg, .top_secondary_lg {
@@ -48,10 +50,12 @@
 
 .bottom_primary, .bottom_primary_lg {
   background: url('../../../public/images/ui/pushbutton-bottom-primary.png');
+  image-rendering: pixelated;
 }
 
 .bottom_secondary, .bottom_secondary_lg {
   background: url('../../../public/images/ui/pushbutton-bottom-secondary.png');
+  image-rendering: pixelated;
 }
 
 .bottom_primary, .bottom_secondary, .bottom_primary_lg, .bottom_secondary_lg {

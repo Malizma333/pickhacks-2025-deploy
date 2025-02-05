@@ -16,6 +16,7 @@
 	cursor: pointer;
 	
 	background-image: url("/images/backgrounds/PrizeFrame.png");
+	image-rendering: pixelated;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
