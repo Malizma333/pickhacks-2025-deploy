@@ -23,6 +23,7 @@
 .leftButtonImage {
 	height: 4em;
 	width: auto;
+	image-rendering: pixelated;
 }
 
 .rightButtonImage {
@@ -30,6 +31,7 @@
 	width: auto;
 	transform: rotate(180deg);
     transform-origin: center;
+	image-rendering: pixelated;
 }
 
 @media screen and (max-width: 600px) {
