@@ -16,7 +16,7 @@ import accenture from '../../public/images/sponsors/AccentureLogo.png'
 import shelter from '../../public/images/sponsors/ShelterLogo.png'
 import johndeere from '../../public/images/sponsors/JohnDeereLogo.png'
 import sandia from '../../public/images/sponsors/SandiaLogo.png'
-import nsc from '../../public/images/sponsors/NSCLogo.png'
+import nisc from '../../public/images/sponsors/NISCLogo.png'
 import veteransunited from '../../public/images/sponsors/VeteransUnitedLogo.png'
 import mosystems from '../../public/images/partners/missouri-systems-logo.png'
 import mlh from '../../public/images/partners/mlh-logo.png'
@@ -73,7 +73,7 @@ export {
     shelter,
     johndeere,
     sandia,
-    nsc,
+    nisc,
     veteransunited,
     mosystems,
     mlh,

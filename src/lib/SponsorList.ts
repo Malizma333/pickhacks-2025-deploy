@@ -1,11 +1,19 @@
 import { ISponsor } from '@/interfaces/ISponsor';
-import { accenture, tradebot, shelter, johndeere, sandia, nsc, veteransunited } from './Images';
+import { accenture, tradebot, shelter, johndeere, sandia, nisc, veteransunited } from './Images';
 
 export const GoldSponsors: ISponsor[] = [
 	// {
 	// 	logo: tradebot.src,
 	// 	link: '',
 	// },
+  {
+		logo: nisc.src,
+		link: 'https://www.nisc.coop/',
+	},
+  {
+		logo: veteransunited.src,
+		link: 'https://www.veteransunitedinsurance.com/',
+	},
 ];
 
 export const SilverSponsors: ISponsor[] = [
@@ -36,12 +44,4 @@ export const BronzeSponsors: ISponsor[] = [
 	// 	logo: sandia.src,
 	// 	link: 'https://www.sandia.gov/careers/',
 	// },
-    {
-		logo: nsc.src,
-		link: 'https://kcnsc.doe.gov/',
-	},
-    {
-		logo: veteransunited.src,
-		link: 'https://www.veteransunitedinsurance.com/',
-	},
 ];
