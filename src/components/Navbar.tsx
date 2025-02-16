@@ -15,26 +15,26 @@ function Navbar() {
 		<nav className={styles.navbar}>
 			<div className={styles.container}>
 				<ul className={styles.list}>
-					<a href="#home" className={styles.logo}>
+					<a href="/#home" className={styles.logo}>
 						<img src={picklogo25.src} />
 					</a>
 					<li>
-						<a className={styles.buttons} href="#schedule">
+						<a className={styles.buttons} href="/#schedule">
 							Schedule
 						</a>
 					</li>
 					<li>
-						<a className={styles.buttons} href="#sponsors">
+						<a className={styles.buttons} href="/#sponsors">
 							Sponsors
 						</a>
 					</li>
 					<li>
-						<a className={styles.buttons} href="#faq">
+						<a className={styles.buttons} href="/#faq">
 							FAQ
 						</a>
 					</li>
 					<li>
-						<a className={styles.buttons} href="#team">
+						<a className={styles.buttons} href="/#team">
 							Team
 						</a>
 					</li>
@@ -94,4 +94,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
