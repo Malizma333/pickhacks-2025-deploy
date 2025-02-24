@@ -1,13 +1,13 @@
 import { IPrize } from '@/interfaces/IPrize';
-import { bambulab, metaquest3, acer, kingspec, giftcard, beats, redragon } from './Images';
+import { flashforge, metaquest3, acer, kingspec, giftcard, beats, redragon } from './Images';
 
 export const PrizeList: IPrize[] = [
 	{
 		id: 1,
-		img: bambulab.src,
+		img: flashforge.src,
 		title: 'Overall 1st Place',
-		description: '4x Bambu Lab P1P 3D Printer',
-		link: 'https://us.store.bambulab.com/products/p1p?sscid=a1k8_9c4fs&', // Link updated
+		description: '4x FLASHFORGE Adventurer 5M Pro 3D Printer',
+		link: 'https://a.co/d/8LdsziJ',
 	},
 	{
 		id: 2,
@@ -27,8 +27,8 @@ export const PrizeList: IPrize[] = [
 		id: 4,
 		img: kingspec.src,
 		title: 'Best Hardware Hack',
-		description: '4x KingSpec 2TB External SSD, 20Gbps, 2000MB/S',
-		link: 'https://www.newegg.com/kingspec-z5-external-ssd-2tb/p/2CR-0015-00022?Item=9SIB1V8K5P3366&cm_sp=product-_-from-price-options',
+		description: '4x KingSpec Z5 1TB External SSD',
+		link: 'https://a.co/d/4vklbR5',
 	},
 	{
 		id: 5,

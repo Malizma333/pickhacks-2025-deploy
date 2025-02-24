@@ -46,7 +46,7 @@ import ShyamPatel from '../../public/images/headshots/ShyamPatel.webp';
 import TylerSanford from '../../public/images/headshots/TylerSanford.webp';
 import VishaanthMuddu from '../../public/images/headshots/VishaanthMuddu.webp';
 // Prizes
-import bambulab from '../../public/images/prizes/bambulab.webp'
+import flashforge from '../../public/images/prizes/flashforge.webp'
 import acer from '../../public/images/prizes/acer.webp'
 import kingspec from '../../public/images/prizes/kingspec.webp'
 import beats from '../../public/images/prizes/beats.webp'
@@ -80,7 +80,7 @@ export {
     standoutstickers,
     stuco,
     devpost,
-    bambulab,
+    flashforge,
     acer,
     kingspec,
     beats,
