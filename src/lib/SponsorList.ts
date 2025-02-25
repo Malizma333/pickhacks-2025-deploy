@@ -1,5 +1,5 @@
 import { ISponsor } from '@/interfaces/ISponsor';
-import { accenture, tradebot, shelter, johndeere, sandia, nisc, veteransunited } from './Images';
+import { accenture, tradebot, shelter, johndeere, sandia, nisc, veteransunited, garmin } from './Images';
 
 export const GoldSponsors: ISponsor[] = [
 	// {
@@ -21,10 +21,10 @@ export const SilverSponsors: ISponsor[] = [
 	// 	logo: johndeere.src,
 	// 	link: 'https://www.deere.com/en/index.html', //no link in database
 	// },
-	// {
-	// 	logo: nsc.src,
-	// 	link: 'https://kcnsc.doe.gov/',
-	// },
+	{
+		logo: garmin.src,
+		link: 'https://www.garmin.com/',
+	},
 ];
 
 export const BronzeSponsors: ISponsor[] = [
