@@ -65,7 +65,7 @@ const MobileNavbar = () => {
 						<img src={instagram.src} />
 					</a>
 
-					<a className={styles.icon} href='https://discord.gg/p3fcxGzjxa' target='_blank'>
+					<a className={styles.icon} href='https://discord.gg/weJVRv4Rk9' target='_blank'>
 						<img src={discord.src} />
 					</a>
 

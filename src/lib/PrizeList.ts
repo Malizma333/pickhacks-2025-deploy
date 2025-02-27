@@ -44,22 +44,29 @@ export const PrizeList: IPrize[] = [
 		description: '4x $50 Amazon Gift Card',
 		link: 'https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011',
 	},
-	{
+    {
 		id: 7,
+		img: giftcard.src,
+		title: 'Best Retro Hack',
+		description: '4x $50 Amazon Gift Card',
+		link: 'https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011',
+	},
+	{
+		id: 8,
 		img: beats.src,
 		title: 'Best Solo Hack',
 		description: '1x Beats Fit Pro',
 		link: 'https://a.co/d/2xynlZN',
 	},
 	{
-		id: 8,
+		id: 9,
 		img: redragon.src,
 		title: 'Best Beginner Hack',
 		description: '4x Redragon Mechanical Noise Canceling Foam Keyboard',
 		link: 'https://a.co/d/b7rwfBP',
 	},
 	{
-		id: 9,
+		id: 10,
 		img: giftcard.src,
 		title: 'Raffle Prizes',
 		description: '3x $25 Amazon Gift Card',
