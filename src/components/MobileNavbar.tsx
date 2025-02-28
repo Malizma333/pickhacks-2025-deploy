@@ -58,7 +58,7 @@ const MobileNavbar = () => {
 					text='register'
 				></PushButton>
 				<div className={styles.socials}>
-					<a className={styles.icon} href='https://pickhacks-2025.devpost.com/' target='_blank'>
+					<a className={styles.icon} href='https://pickhacks-2025mst.devpost.com/' target='_blank'>
 						<img src={devpost.src} />
 					</a>
 					<a className={styles.icon} href='https://www.instagram.com/sandtpickhacks' target='_blank'>

@@ -52,7 +52,7 @@ function Navbar() {
 				<ul className={styles.social}>
 					<div className={styles.socialContainer}>
 						<li className={styles.socialitem}>
-							<a className={styles.icon} href="https://pickhacks-2025.devpost.com/" target="_blank">
+							<a className={styles.icon} href="https://pickhacks-2025mst.devpost.com/" target="_blank">
 								<img src={devpost.src} />
 							</a>
 						</li>
