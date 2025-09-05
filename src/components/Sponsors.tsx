@@ -4,9 +4,7 @@ import {
   SilverSponsors,
 } from "@/lib/SponsorList";
 import styles from "@/styles/components/Sponsors.module.css";
-import Link from "next/link";
 import SponsorBox from "./SponsorBox";
-import PushButton from "./PushButton";
 
 const Sponsors = () => {
   return (

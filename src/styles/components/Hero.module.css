@@ -33,4 +33,5 @@
   font-size: max(1.8vw, calc(0.018 * var(--min-screen)));
   font-weight: 400;
   text-align: center;
+  margin-bottom: 0.5em;
 }

@@ -32,11 +32,12 @@ const Schedule = () => {
         {["Friday", "Saturday", "Sunday"].map((day) => (
           <PushButton
             key={day}
+            width="max(115px, 15vw)"
             variant={selected === day ? "secondary" : "primary"}
-            size="lg"
             onClick={() => toggle(day)}
-            text={day}
-          ></PushButton>
+          >
+            {day}
+          </PushButton>
         ))}
       </div>
       {currData

@@ -27,6 +27,7 @@
   justify-content: center;
   width: 100%;
   gap: max(1.25vw, calc(0.0125 * var(--min-screen)));
+  margin-bottom: max(1.5vw, calc(0.015 * var(--min-screen)));
 }
 
 .eventContainer {

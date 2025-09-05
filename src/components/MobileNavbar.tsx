@@ -9,7 +9,7 @@ import {
 import styles from "@/styles/components/MobileNavbar.module.css";
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
-import PushButton from "./PushButton";
+// import PushButton from "./PushButton";
 
 const MobileNavbar = () => {
   const [open, setOpen] = useState(false);
@@ -89,7 +89,7 @@ const MobileNavbar = () => {
         >
           Team
         </a>
-        <PushButton
+        {/* <PushButton
           variant="primary"
           size="lg"
           onClick={() =>
@@ -99,7 +99,7 @@ const MobileNavbar = () => {
             )
           }
           text="register"
-        ></PushButton>
+        ></PushButton> */}
         <div className={styles.socials}>
           <a
             className={styles.icon}

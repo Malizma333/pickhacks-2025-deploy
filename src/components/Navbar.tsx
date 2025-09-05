@@ -9,7 +9,7 @@ import {
 import styles from "@/styles/components/Navbar.module.css";
 import { useMediaQuery } from "usehooks-ts";
 import MobileNavbar from "./MobileNavbar";
-import PushButton from "./PushButton";
+// import PushButton from "./PushButton";
 
 function Navbar() {
   const matches = useMediaQuery("(max-width: 1139px)");
@@ -45,7 +45,7 @@ function Navbar() {
               Team
             </a>
           </li>
-          <PushButton
+          {/* <PushButton
             variant="primary"
             size="sm"
             onClick={() =>
@@ -55,7 +55,7 @@ function Navbar() {
               )
             }
             text="register"
-          ></PushButton>
+          ></PushButton> */}
         </ul>
         <ul className={styles.social}>
           <div className={styles.socialContainer}>
