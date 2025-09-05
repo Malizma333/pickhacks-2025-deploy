@@ -34,7 +34,7 @@
   position: absolute;
   width: 100%;
   aspect-ratio: 134/40;
-  font-size: max(10px, 1.3vw);
+  font-size: max(8px, 1.1vw);
   line-height: 90%;
   top: 0;
 }
