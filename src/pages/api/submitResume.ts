@@ -11,7 +11,10 @@ export const config = {
   },
 };
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse,
+) {
   const form = new IncomingForm();
 
   form.parse(req, async (err, fields, files) => {
@@ -21,9 +24,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
 
     const { firstName, lastName, email } = fields;
-    
+
     // Handle single or multiple files
-    const resumeFile = Array.isArray(files?.resume) ? files?.resume[0] : files?.resume;
+    const resumeFile = Array.isArray(files?.resume)
+      ? files?.resume[0]
+      : files?.resume;
 
     if (!firstName || !lastName || !email || !resumeFile) {
       return res.status(400).json({ error: "Missing required fields" });
@@ -37,9 +42,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       // Fixing path usage directly from formidable's temporary file location
       const filePath = resumeFile.filepath; // Use the direct temp file path provided by formidable
 
-      const uploadStream = bucket.openUploadStream(resumeFile.originalFilename, {
-        contentType: resumeFile.mimetype,
-      });
+      const uploadStream = bucket.openUploadStream(
+        resumeFile.originalFilename,
+        {
+          contentType: resumeFile.mimetype,
+        },
+      );
 
       const fileStream = fs.createReadStream(filePath);
       fileStream.pipe(uploadStream);
@@ -58,10 +66,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         await collection.insertOne(newResume);
 
         // Ensure to return the response after all is done
-        return res.status(201).json({ message: "Resume submitted successfully!" });
+        return res
+          .status(201)
+          .json({ message: "Resume submitted successfully!" });
       });
 
-      uploadStream.on("error", (error: Error) => { // Type error parameter explicitly
+      uploadStream.on("error", (error: Error) => {
+        // Type error parameter explicitly
         console.error("GridFS upload error:", error);
         return res.status(500).json({ error: "Error uploading file" });
       });

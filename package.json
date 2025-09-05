@@ -1,12 +1,13 @@
 {
-  "name": "pickhacks-2023",
-  "version": "0.1.0",
+  "name": "pickhacks-2025",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier src --write"
   },
   "dependencies": {
     "@prisma/client": "^6.3.1",

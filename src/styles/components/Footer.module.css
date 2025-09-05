@@ -1,48 +1,48 @@
 .footer {
-	background-color: #282624;
-	width: 100%;
-	min-height: 4em;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	color: #C3C6E2;
-	padding: 0 2em;
-	flex-wrap: wrap;
+  background-color: #282624;
+  width: 100%;
+  min-height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #c3c6e2;
+  padding: 0 2em;
+  flex-wrap: wrap;
 }
 
 .love {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .left,
 .mid,
 .right {
-	flex: 1;
-	flex-wrap: wrap;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .left {
-	display: flex;
-	gap: 2em;
+  display: flex;
+  gap: 2em;
 }
 
 .left a:hover {
-	color: rgb(219, 208, 219);
+  color: rgb(219, 208, 219);
 }
 
 .mid {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 .right {
-	text-align: right;
+  text-align: right;
 }
 
 @media screen and (max-width: 900px) {
-	.footer {
-		font-size: 13px;
-	}
+  .footer {
+    font-size: 13px;
+  }
 }

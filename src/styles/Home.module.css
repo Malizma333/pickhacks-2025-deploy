@@ -1,41 +1,41 @@
 .section {
   min-height: max(545.625px, 56.25vw);
-	padding-top: 3em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0 1em;
+  padding-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
 }
 
 .fillerText {
-	color: #9686ac;
-	font-size: 1.5em;
+  color: #9686ac;
+  font-size: 1.5em;
 }
 
 .smallGuySection {
-	display: flex;
-	margin-left: 10em;
+  display: flex;
+  margin-left: 10em;
 }
 
 .separate {
-	margin-top: 20em;
+  margin-top: 20em;
 }
 
 .leftBlur {
-	position: absolute;
-	/* bottom: -10em; */
-	top: 20em;
-	left: 0;
-	z-index: 0;
+  position: absolute;
+  /* bottom: -10em; */
+  top: 20em;
+  left: 0;
+  z-index: 0;
 }
 .rightBlur {
-	position: absolute;
-	top: -10em;
-	right: 0;
-	z-index: 0;
+  position: absolute;
+  top: -10em;
+  right: 0;
+  z-index: 0;
 }
 
 .tbd {
-    color: #C3C6E2;
-    font-size: 1.5em;
+  color: #c3c6e2;
+  font-size: 1.5em;
 }

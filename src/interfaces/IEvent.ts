@@ -1,7 +1,6 @@
 export interface IEvent {
-    day: string;
-    event: string;
-    time: string;
-    location: string;
+  day: string;
+  event: string;
+  time: string;
+  location: string;
 }
-
