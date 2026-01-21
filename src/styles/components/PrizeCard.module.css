@@ -1,60 +1,60 @@
 .box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardContainer {
-	height: 15em;
-	width: 15em;
-	flex-shrink: 0;
-	padding: 2em;
-	transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
-	display: flex;
-	flex-direction: column;
-	gap: 0.5em;
-	cursor: pointer;
-	
-	background-image: url("/images/backgrounds/PrizeFrame.png");
-	image-rendering: pixelated;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+  height: 15em;
+  width: 15em;
+  flex-shrink: 0;
+  padding: 2em;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  cursor: pointer;
+
+  background-image: url("/images/backgrounds/PrizeFrame.png");
+  image-rendering: pixelated;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cardContainer:hover {
-	transform: scale(1.015);
+  transform: scale(1.015);
 }
 
 .title {
-	color: #FFFFFF;
-	font-size: 1.1em;
-	font-weight: medium;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: medium;
 }
 
 .description {
-	color: #ded4eb;
-	font-size: 0.7em;
-    margin-bottom: 1em;
+  color: #ded4eb;
+  font-size: 0.7em;
+  margin-bottom: 1em;
 }
 
 .imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
 }
 
 .image {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    flex-shrink: 0;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 700px) {
-	.box {
-		font-size: 14px;
-	}
+  .box {
+    font-size: 14px;
+  }
 }

@@ -1,17 +1,17 @@
 .sponsorBox:hover {
-	transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .sponsorBox {
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	image-rendering: pixelated;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  image-rendering: pixelated;
 }
 
 .logo {
-	object-fit: contain;
-	max-width: 35%;
+  object-fit: contain;
+  max-width: 35%;
 }

@@ -1,63 +1,64 @@
-.leftButton, .rightButton {
-	position: absolute;
-	top: 50%;
-	z-index: 30;
-	transition: padding 0.2s ease;
-	cursor: pointer;
-	transform: translateY(-50%);
-	display: flex;
-	justify-items: center;
-	align-items: center;
+.leftButton,
+.rightButton {
+  position: absolute;
+  top: 50%;
+  z-index: 30;
+  transition: padding 0.2s ease;
+  cursor: pointer;
+  transform: translateY(-50%);
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .leftButton {
-	left: 0;
-	margin-left: 4em;
+  left: 0;
+  margin-left: 4em;
 }
 
 .rightButton {
-	right: 0;
-	margin-right: 4em;
+  right: 0;
+  margin-right: 4em;
 }
 
 .leftButtonImage {
-	height: 4em;
-	width: auto;
-	image-rendering: pixelated;
+  height: 4em;
+  width: auto;
+  image-rendering: pixelated;
 }
 
 .rightButtonImage {
-	height: 4em;
-	width: auto;
-	transform: rotate(180deg);
-    transform-origin: center;
-	image-rendering: pixelated;
+  height: 4em;
+  width: auto;
+  transform: rotate(180deg);
+  transform-origin: center;
+  image-rendering: pixelated;
 }
 
 @media screen and (max-width: 600px) {
-	.leftButton {
-		margin-left: 0em;
-	}
-	.rightButton {
-		margin-right: 0em;
-	}
-	.carouselContainer {
-		width: 100vw;
-	}
+  .leftButton {
+    margin-left: 0em;
   }
+  .rightButton {
+    margin-right: 0em;
+  }
+  .carouselContainer {
+    width: 100vw;
+  }
+}
 
 .carouselContainer {
-	width: 75vw;
-	padding: 0.5em 0;
-	z-index: 20;
+  width: 75vw;
+  padding: 0.5em 0;
+  z-index: 20;
 }
 
 .inner {
-	padding: 0 10vw;
+  padding: 0 10vw;
 }
 
 @media screen and (max-width: 600px) {
-	.inner {
-		padding: 0;
-	}
+  .inner {
+    padding: 0;
+  }
 }

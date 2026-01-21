@@ -1,51 +1,53 @@
 .App {
   --min-screen: 700px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-  background-image: url('../../../public/images/backgrounds/ScheduleBackground.png');
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../../public/images/backgrounds/ScheduleBackground.png");
   background-repeat: no-repeat;
-	background-size: contain;
+  background-size: contain;
   background-position: top;
   image-rendering: pixelated;
   box-sizing: border-box;
   margin-top: max(16vw, calc(0.16 * var(--min-screen)));
   height: max(40.5vw, calc(0.405 * var(--min-screen)));
   width: max(45vw, calc(0.45 * var(--min-screen)));
-  padding: max(2.5vw, calc(0.025 * var(--min-screen))) max(6.5vw, calc(0.065 * var(--min-screen)));
-	z-index: 2;
+  padding: max(2.5vw, calc(0.025 * var(--min-screen)))
+    max(6.5vw, calc(0.065 * var(--min-screen)));
+  z-index: 2;
 }
 
 .header {
   font-size: max(3.4vw, calc(0.034 * var(--min-screen)));
-  color: #282A36;
+  color: #282a36;
 }
 
 .row {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	gap: max(1.25vw, calc(0.0125 * var(--min-screen)));
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: max(1.25vw, calc(0.0125 * var(--min-screen)));
+  margin-bottom: max(1.5vw, calc(0.015 * var(--min-screen)));
 }
 
 .eventContainer {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: max(2.9vw, calc(0.029 * var(--min-screen)));
   height: max(2.35vw, calc(0.0235 * var(--min-screen)));
 }
 
 .column {
-	display: flex;
-	flex-direction: column;
-	flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   font-size: max(1vw, calc(0.01 * var(--min-screen)));
 }
 
 .rightText {
-	text-align: right;
+  text-align: right;
 }
 
 .pageNavButton {
@@ -56,13 +58,13 @@
   bottom: 0;
   margin: max(2.5vw, calc(0.025 * var(--min-screen)));
   cursor: pointer;
-  color: #CF3030;
+  color: #cf3030;
 }
 
 .pageNavButton:hover {
-    color: #bd2c2c;
+  color: #bd2c2c;
 }
 
 .pageNavButton:disabled {
-    color: gray;
+  color: gray;
 }

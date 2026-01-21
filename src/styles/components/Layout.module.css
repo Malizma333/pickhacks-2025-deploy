@@ -2,7 +2,7 @@
   position: absolute;
   width: 100vw;
   height: 500vh;
-  background-image: url('../../../public/images/backgrounds/Background2025.png');
+  background-image: url("../../../public/images/backgrounds/Background2025.png");
   background-position: top;
   background-size: cover;
   image-rendering: pixelated;

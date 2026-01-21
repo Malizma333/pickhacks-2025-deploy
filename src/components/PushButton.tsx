@@ -1,33 +1,38 @@
-import styles from '@/styles/components/PushButton.module.css';
+import styles from "@/styles/components/PushButton.module.css";
+import { PropsWithChildren } from "react";
 
 type PushButtonProps = {
-	variant: 'primary' | 'secondary';
-  size: 'sm' | 'lg';
+  variant: "primary" | "secondary";
+  width: string;
   onClick?: Function;
-	text: string;
 };
 
-const PushButton: React.FC<PushButtonProps> = ({variant, size, onClick, text}) => {
-  const primarySmall = [styles.outer, styles.top_primary, styles.text, styles.bottom_primary]
-  const primaryLarge = [styles.outer_lg, styles.top_primary_lg, styles.text_lg, styles.bottom_primary_lg]
-  const secondarySmall = [styles.outer, styles.top_secondary, styles.text, styles.bottom_secondary]
-  const secondaryLarge = [styles.outer_lg, styles.top_secondary_lg, styles.text_lg, styles.bottom_secondary_lg]
-  const styleArray = 
-    variant == 'primary' && size == 'sm' ? primarySmall :
-    variant == 'primary' && size == 'lg' ? primaryLarge :
-    variant == 'secondary' && size == 'sm' ? secondarySmall :
-    variant == 'secondary' && size == 'lg' ? secondaryLarge :
-    primarySmall
-
+const PushButton: React.FC<PropsWithChildren<PushButtonProps>> = ({
+  variant,
+  onClick,
+  width,
+  children,
+}) => {
   return (
-    <div className={styleArray[0]}>
-      <div className={styles.hitbox} onClick={() => onClick && onClick()}></div> {/* Keep this div on top */}
-      <div className={styleArray[1]}>
-        <p className={styleArray[2]}>{text}</p>
+    <div style={{ width, aspectRatio: "137/48" }}>
+      {/* Keep hitbox on top */}
+      <div className={styles.hitbox} onClick={() => onClick && onClick()}></div>
+      <div
+        className={
+          variant === "primary" ? styles.top_primary : styles.top_secondary
+        }
+      >
+        {children}
       </div>
-      <div className={styleArray[3]}></div>
+      <div
+        className={
+          variant === "primary"
+            ? styles.bottom_primary
+            : styles.bottom_secondary
+        }
+      ></div>
     </div>
-  )
+  );
 };
 
 export default PushButton;
